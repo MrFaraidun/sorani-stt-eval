@@ -46,3 +46,5 @@ results/*.csv
 .pytest_cache/
 .ruff_cache/
 graphify-out/
+MESSAGE_FOR_TEAM_LEADER.*
+
