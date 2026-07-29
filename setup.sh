@@ -1,25 +1,55 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# Sorani Kurdish ASR Master Setup Script
-# Downloads all models, datasets, dependencies, and prepares the environment.
+# GreenSorani AI - Environment Setup & Installation Script
+# Prepares Python virtualenv, backend dependencies, and frontend npm modules.
 # ==============================================================================
 
 set -e
 
-echo "🚀 Setting up Python virtual environment and dependencies..."
+echo "=== 🛠️ Setting up GreenSorani AI Suite ==="
 
-if [ ! -d ".venv" ]; then
-    python3 -m venv .venv
+# 1. Ensure Python 3 is available
+if ! command -v python3 &> /dev/null; then
+    echo "❌ Python 3 is required but not installed. Please install python3."
+    exit 1
 fi
 
-source .venv/bin/activate
-export PYTHONPATH=.
+# 2. Ensure Node.js and npm are available
+if ! command -v npm &> /dev/null; then
+    echo "❌ Node.js/npm is required but not installed. Please install nodejs & npm."
+    exit 1
+fi
 
-pip install --quiet fastapi uvicorn reportlab numpy scipy requests python-dotenv pydantic transformers torch || true
+# 3. Create .env from .env.example if missing
+if [ ! -f .env ]; then
+  echo "📋 Creating .env configuration from .env.example..."
+  cp .env.example .env
+fi
 
-echo ""
-echo "📥 Running full asset and model downloader..."
-python3 scripts/setup_all_assets.py
+# 4. Create Python Virtual Environment
+if [ ! -d ".venv" ]; then
+  echo "📦 Creating Python virtual environment (.venv)..."
+  python3 -m venv .venv
+else
+  echo "✅ Python virtual environment (.venv) already exists."
+fi
 
-echo ""
-echo "✨ SETUP COMPLETE! Now run: ./start.sh"
+# 5. Upgrade pip & Install Python Dependencies
+echo "📥 Installing backend Python dependencies..."
+.venv/bin/python -m pip install --upgrade pip --quiet
+if [ -f "requirements.txt" ]; then
+  .venv/bin/pip install -r requirements.txt --quiet
+fi
+
+# 6. Install Frontend Node Modules
+if [ -d "frontend" ]; then
+  echo "🌐 Installing frontend npm packages..."
+  cd frontend
+  npm install --quiet
+  cd ..
+fi
+
+echo "=============================================================================="
+echo "✅ Setup Completed Successfully!"
+echo "🚀 Next Step: Run './start.sh' to launch GreenSorani AI Suite on http://localhost:5173"
+echo "=============================================================================="

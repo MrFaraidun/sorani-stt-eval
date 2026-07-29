@@ -17,7 +17,13 @@ cleanup_port() {
 
 echo "=== 🚀 Launching GreenSorani AI Suite ==="
 
-# 0. Auto-create .env if missing
+# 0. Auto-run setup.sh if dependencies are missing
+if [ ! -d ".venv" ] || [ ! -d "frontend/node_modules" ]; then
+  echo "⚠️ Dependencies missing. Running automated setup.sh first..."
+  ./setup.sh
+fi
+
+# 0.1 Auto-create .env if missing
 if [ ! -f .env ]; then
   echo "📋 .env file not found. Auto-creating .env from .env.example..."
   cp .env.example .env
