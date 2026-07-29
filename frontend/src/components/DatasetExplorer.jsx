@@ -7,18 +7,18 @@ export default function DatasetExplorer({ t }) {
   const [playingClip, setPlayingClip] = useState(null);
 
   const testClips = [
-    { clip: 'clip_01', dialect: 'Sulaymaniyah', speed: 'normal', noise: 'Clean', duration: '4.50s', text: 'پاش موسڵمان بوونی بڕیاری دا بەرگی باڵاپۆشیش لە بەر بکات' },
-    { clip: 'clip_02', dialect: 'Hawler', speed: 'fast', noise: 'Noise', duration: '4.20s', text: 'ئافرەتانی کورد بۆ لە فرەژنی دەترسن' },
-    { clip: 'clip_03', dialect: 'Kirkuk', speed: 'slow', noise: 'Clean', duration: '4.00s', text: 'داوای بەخشش و یارمەتی لە خودا بکەن' },
-    { clip: 'clip_04', dialect: 'Garmian', speed: 'normal', noise: 'Noise', duration: '4.30s', text: 'خوای گەورە بانگت دەکات بۆ پەیوەست بوونت بە فەرمانەکانی' },
-    { clip: 'clip_05', dialect: 'Sulaymaniyah', speed: 'fast', noise: 'Clean', duration: '3.80s', text: 'پێغەمبەری سەروەر ناوی چاکی لا پەسند بوو' },
-    { clip: 'clip_06', dialect: 'Hawler', speed: 'slow', noise: 'Noise', duration: '4.10s', text: 'هاوەڵ بۆ خودا پەیداکردن ستەمێکی گەورەیە' },
-    { clip: 'clip_07', dialect: 'Kirkuk', speed: 'normal', noise: 'Clean', duration: '4.00s', text: 'مەسەلەی عەقیدە ڕاستەوخۆ پەیوەستە بە قورئان و سوننەتەوە' },
-    { clip: 'clip_08', dialect: 'Garmian', speed: 'fast', noise: 'Noise', duration: '4.40s', text: 'زانا و گەورە ڕووناکبیری ئیسلامی کۆچی دوایی کرد' },
-    { clip: 'clip_09', dialect: 'Sulaymaniyah', speed: 'slow', noise: 'Clean', duration: '4.20s', text: 'بە پشتیوانیی خوا هەڵدەستین بە سازدانی کۆڕێکی ئیمانی' },
-    { clip: 'clip_10', dialect: 'Hawler', speed: 'normal', noise: 'Noise', duration: '3.90s', text: 'هەموو ئەمانە ئەسڵ و بنەمایەکیان نییە لە شەرعدا' },
-    { clip: 'clip_11', dialect: 'Kirkuk', speed: 'fast', noise: 'Clean', duration: '4.10s', text: 'یانەی هەولێر سورپرایزی بۆ هاندەرانی هەیە' },
-    { clip: 'clip_12', dialect: 'Garmian', speed: 'slow', noise: 'Noise', duration: '4.50s', text: 'ڕۆناڵدۆ بەڵێنی دابوو ئەگەر گۆڵ بکات بە هاندەران بڵێت بێدەنگ' },
+    { clip: 'clip_01', dialect: 'Sulaymaniyah', speed: 'normal', noise: 'Clean', duration: '9.78s', text: 'هەروەها بەشداربووە لە هەڵکەندنی قاڵبی دراو بۆ چەندان وڵات نمونەی کارەکانی وەکو وێنەی سەرۆک وەزیران لەناو دراوی 5 دۆلاری و 100 دۆلاریی کەنەدیدا' },
+    { clip: 'clip_02', dialect: 'Hawler', speed: 'fast', noise: 'Noise', duration: '12.30s', text: 'دار بە دەستی ناوەراست ساچین تەندولکار و راهول دراڤید زۆر باش یاریان کرد و هاوبەشێتیەکی ڕراکردنی سەدییان کرد' },
+    { clip: 'clip_03', dialect: 'Kirkuk', speed: 'slow', noise: 'Clean', duration: '16.92s', text: 'سوندەربەن به سایتی که له پووری جیهانی یونسکۆ ڕاگه یەندراوە ئەو بەشەی دارستانی ناو خاکی هیندستانە کە پێی دەوترێت پارکی نەتەوەیی سەندەربانس' },
+    { clip: 'clip_04', dialect: 'Garmian', speed: 'normal', noise: 'Noise', duration: '12.00s', text: 'ئاسانترین سەرچاوەی ڕووەکی پرۆتینەکانی گەڵا و پاقلەمەنیکانن بەڵام ئەمانە بۆ شیردەرەکانی وەک ئێمە هەرسکردنیان قورسە مەگەر بکوڵێنرێن' },
+    { clip: 'clip_05', dialect: 'Sulaymaniyah', speed: 'fast', noise: 'Clean', duration: '13.26s', text: 'دەتوانیت بۆدا بۆدا تاکسی ماتۆرسکیل بەکاربێنیت بۆ گەڕان بە ناو گۆما نرخی ئاسایی ناوخۆیی بریتیە لە ~500 فرانکی کۆنگۆلی بۆ گەشتێکی کورت' },
+    { clip: 'clip_06', dialect: 'Hawler', speed: 'slow', noise: 'Noise', duration: '9.06s', text: 'ژمارەی لێ بڕینەکانی دانەناوە وتی ئەو ژمارانە لەسەر بنەمای زانیاریە ئابوریەکانی چین دادەنرێن' },
+    { clip: 'clip_07', dialect: 'Kirkuk', speed: 'normal', noise: 'Clean', duration: '16.74s', text: 'چەندان کاری هەویری ئەڵمانی بادام و بندق و چەرەساتی تری بەری درەختیان تێدایە کێکە بەناوبانگەکان زۆرجار تامێکی نایاب دەبەخشن لەگەڵ کوپێک قاوەی تاڵدا' },
+    { clip: 'clip_08', dialect: 'Garmian', speed: 'fast', noise: 'Noise', duration: '8.22s', text: 'پێش هاتنی سوپا هایتی لەوەتەی ساڵی 1800ەوە تووشی کێشەی پەیوەست بە نەخۆشیەکە نەبووبوو' },
+    { clip: 'clip_09', dialect: 'Sulaymaniyah', speed: 'slow', noise: 'Clean', duration: '14.16s', text: 'ئەوروپا کێشوەرێکە کە لەچاوخۆیدا بچوکە بەڵام چەندان وڵاتی سەربەخۆی تێدایە لە هەلومەرجی ئاساییدا گەشتکردن بە چەند وڵاتێکدا واتە هێندەی ئەو گەشتانە داواکردنی ڤیزا و خاڵی پشکنینی پاسپۆرت' },
+    { clip: 'clip_10', dialect: 'Hawler', speed: 'normal', noise: 'Noise', duration: '8.82s', text: 'بە شێوەیەکی گشتی تۆ گشت کاتێک گوێت لە دەنگی گەشتیار و فرۆشیارەکان دەبێت چیرۆکی دەنگ و ڕووناکی وەک کتێبی چیرۆک وایە' },
+    { clip: 'clip_11', dialect: 'Kirkuk', speed: 'fast', noise: 'Clean', duration: '19.08s', text: 'جیمناستیکی ویلایەتە یەکگرتووەکانی ئەمریکا پشتیوانی لە نووسراوی لێژنەی ئۆلیمپی ویلایەتە یەکگرتووەکانی ئەمریکا دەکات و پەسەندی تەواوی پێویستی خێزانی ئۆلیمپی دەکات بۆ برەودان بە ژینگەیەکی سەلامەت بۆ گشت وەرزشوانمان' },
+    { clip: 'clip_12', dialect: 'Garmian', speed: 'slow', noise: 'Noise', duration: '10.98s', text: 'زۆربەی دورگە بچوکترەکان نەتەوەی سەربەخۆن یان هاوپەیمانن لەگەڵ فەرەنسادا وە بە هاوینەهەواری کەناراویی خۆشگوزەرانی ناسراون' },
   ];
 
   const trainingSummary = [
