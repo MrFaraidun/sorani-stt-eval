@@ -114,9 +114,10 @@ class HybridSoraniASRService(BaseASRService):
                 f"- Candidate B (Cloud Multimodal AI): {candidate_b}\n\n"
                 "Task:\n"
                 "1. Compare both transcriptions.\n"
-                "2. Resolve any word discrepancies or phonetic mishearings.\n"
-                "3. Correct minor spelling/grammar errors while preserving 100% of original meaning.\n"
-                "4. Output ONLY the single best unified Sorani Kurdish text (no explanations or English)."
+                "2. Ignore and strip any hallucinated repetitive loops or repeated sentences.\n"
+                "3. Correct phonetic misrecognitions: 'فارفۆکس'/'فاڤۆکس' -> 'فایەرفۆکس', 'کرۆم'/'گۆگڵ' -> 'گووگڵ کرۆم', 'داگەسەی'/'داپۆشە' -> 'دابخە', 'بکەوە' -> 'بکەرەوە'.\n"
+                "4. Standardize technical terms (e.g., 'ڤی ئێس کۆد' for VS Code, 'گووگڵ کرۆم' for Chrome, 'فەیسبووک' for Facebook).\n"
+                "5. Output ONLY the clean, concise, final Sorani Kurdish user query (no markdown, no explanations, no English)."
             )
 
             arb_payload = {

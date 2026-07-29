@@ -45,10 +45,12 @@ async def transcribe_audio(
         raise HTTPException(status_code=400, detail="Empty filename.")
 
     suffix = Path(file.filename).suffix or ".wav"
-    with tempfile.NamedTemporaryFile(suffix=suffix, delete=False) as tmp:
-        content = await file.read()
-        tmp.write(content)
-        tmp_path = tmp.name
+    tmp = tempfile.NamedTemporaryFile(suffix=suffix, delete=False)
+    content = await file.read()
+    tmp.write(content)
+    tmp.flush()
+    tmp.close()
+    tmp_path = tmp.name
 
     try:
         # Preprocess audio (Resample 16kHz, Peak Normalize)

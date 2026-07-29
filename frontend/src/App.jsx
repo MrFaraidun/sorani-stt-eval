@@ -6,6 +6,7 @@ import Benchmark from './components/Benchmark';
 import NormalizerTool from './components/NormalizerTool';
 import DatasetExplorer from './components/DatasetExplorer';
 import CentralOrb from './components/CentralOrb';
+import AgentWidget from './components/AgentWidget';
 
 export default function App() {
   const [lang, setLang] = useState('ckb'); // Default Sorani Kurdish
@@ -225,6 +226,9 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      {/* Floating Kurdish Voice Agent Widget */}
+      <AgentWidget />
     </div>
   );
 }

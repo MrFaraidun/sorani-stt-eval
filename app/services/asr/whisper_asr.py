@@ -37,10 +37,17 @@ class WhisperASRService(BaseASRService):
         if self.pipe is not None:
             return
 
-        if torch.cuda.is_available():
-            torch.cuda.empty_cache()
+        use_gpu = False
+        if self.device == "cuda" and torch.cuda.is_available():
+            try:
+                free_mem, _ = torch.cuda.mem_get_info(0)
+                if free_mem >= 1.4 * 1024 * 1024 * 1024:
+                    use_gpu = True
+            except Exception:
+                use_gpu = True
 
-        target_device = 0 if (self.device == "cuda" and torch.cuda.is_available()) else -1
+        target_device = 0 if use_gpu else -1
+        self.torch_dtype = torch.float16 if use_gpu else torch.float32
 
         try:
             model = AutoModelForSpeechSeq2Seq.from_pretrained(
@@ -60,9 +67,8 @@ class WhisperASRService(BaseASRService):
                 max_new_tokens=256,
                 chunk_length_s=30,
                 batch_size=1,
-                dtype=self.torch_dtype,
+                torch_dtype=self.torch_dtype,
                 device=target_device,
-                ignore_warning=True,
             )
         except Exception:
             self.load_cpu_fallback()

@@ -49,6 +49,22 @@ app.add_middleware(
 )
 
 
+@app.on_event("startup")
+async def preload_default_models():
+    """Pre-warm default hybrid model in background during server launch."""
+    from fastapi.concurrency import run_in_threadpool
+    from app.services.model_registry import model_registry
+
+    try:
+        def _warm():
+            model = model_registry.get_model("hybrid-custom-gemini")
+            model.load_model()
+
+        await run_in_threadpool(_warm)
+    except Exception:
+        pass
+
+
 @app.get(
     "/health",
     status_code=status.HTTP_200_OK,

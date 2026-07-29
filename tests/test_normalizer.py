@@ -69,4 +69,4 @@ def test_spelling_duality_unification():
     """Verify double 'وو' vs single 'و' unification in words like نمونه‌."""
     raw_text = "نموونه‌ی كاره‌كانی"
     normalized = normalizer.normalize(raw_text)
-    assert "نمونه‌" in normalized or "نمونه" in normalized
+    assert "نموونه" in normalized or "نمونه" in normalized

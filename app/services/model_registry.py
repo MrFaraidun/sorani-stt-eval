@@ -46,9 +46,11 @@ class ModelRegistry:
             if model_key in self._models:
                 return self._models[model_key]
 
-            # Unload any previously cached models to keep RAM/VRAM strictly under 2.5GB
+            # Unload any previously cached temporary models (keep hybrid-custom-gemini pinned)
             if self._models:
-                self._models.clear()
+                to_remove = [k for k in self._models if k != "hybrid-custom-gemini"]
+                for k in to_remove:
+                    del self._models[k]
                 gc.collect()
                 if torch.cuda.is_available():
                     torch.cuda.empty_cache()

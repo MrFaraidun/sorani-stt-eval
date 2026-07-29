@@ -90,7 +90,29 @@ class AudioPipeline:
             except Exception:
                 pass
 
-        # 4. Fallback to librosa.load()
+        # 4. Try system ffmpeg subprocess fallback (Guarantees WebM / browser audio decoding)
+        if waveform is None:
+            try:
+                import subprocess, tempfile
+                tmp_wav = tempfile.NamedTemporaryFile(suffix=".wav", delete=False)
+                tmp_wav_path = tmp_wav.name
+                tmp_wav.close()  # Ensure handle is closed before subprocess/sf.read access
+
+                cmd = ["ffmpeg", "-y", "-i", str(path), "-ar", str(self.target_sample_rate), "-ac", "1", tmp_wav_path]
+                res = subprocess.run(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+                if res.returncode == 0 and Path(tmp_wav_path).exists() and Path(tmp_wav_path).stat().st_size > 0:
+                    import soundfile as sf
+                    data, sr = sf.read(tmp_wav_path, dtype="float32")
+                    sample_rate = sr
+                    if data.ndim == 1:
+                        waveform = torch.from_numpy(data).unsqueeze(0)
+                    else:
+                        waveform = torch.from_numpy(data.T)
+                Path(tmp_wav_path).unlink(missing_ok=True)
+            except Exception:
+                pass
+
+        # 5. Fallback to librosa.load()
         if waveform is None:
             try:
                 import librosa
@@ -103,6 +125,8 @@ class AudioPipeline:
                 else:
                     waveform = torch.from_numpy(signal)
             except Exception as err:
+                if not path.exists() or path.stat().st_size == 0:
+                    raise ValueError(f"Audio file is empty or missing: '{audio_path}'") from err
                 raise RuntimeError(f"Could not load audio file '{audio_path}': {err}") from err
 
         # Downmix to Mono if multi-channel
