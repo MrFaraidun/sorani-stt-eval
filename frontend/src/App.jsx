@@ -66,58 +66,59 @@ export default function App() {
       </svg>
 
       {/* Navigation Header */}
-      <header className="relative z-50 max-w-7xl mx-auto px-6 h-24 flex items-center justify-between">
+      <header className="relative z-50 max-w-7xl mx-auto px-4 sm:px-6 h-24 flex items-center justify-between gap-4">
         {/* Brand Logo: ASO Sorani AI */}
-        <div className="flex items-center gap-3 cursor-pointer group" onClick={() => setActiveModule('studio')}>
-          <div className="w-11 h-11 rounded-2xl bg-emerald-500/20 border border-emerald-400/50 flex items-center justify-center text-emerald-400 shadow-lg shadow-emerald-500/30 group-hover:scale-105 transition-transform">
-            <Sparkles className="w-6 h-6" />
+        <div className="flex items-center gap-3 cursor-pointer group shrink-0" onClick={() => setActiveModule('studio')}>
+          <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-emerald-500/20 border border-emerald-400/50 flex items-center justify-center text-emerald-400 shadow-lg shadow-emerald-500/30 group-hover:scale-105 transition-transform">
+            <Sparkles className="w-5 h-5 sm:w-6 sm:h-6" />
           </div>
-          <span className="text-2xl font-black tracking-tight text-white flex items-center gap-1.5">
-            <span className="text-emerald-400">ASO</span> Sorani <span className="text-xs font-mono px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-300 border border-emerald-400/30">AI</span>
+          <span className="text-xl sm:text-2xl font-black tracking-tight text-white flex items-center gap-1.5 whitespace-nowrap">
+            <span className="text-emerald-400">ASO</span> Sorani <span className="text-[10px] sm:text-xs font-mono px-2 py-0.5 rounded-full bg-emerald-500/10 text-emerald-300 border border-emerald-400/30">AI</span>
           </span>
         </div>
 
         {/* Center Nav Links */}
-        <nav className="hidden md:flex items-center gap-8 text-base font-bold text-slate-300">
+        <nav className="hidden lg:flex items-center gap-6 xl:gap-8 text-sm xl:text-base font-bold text-slate-300">
           <button
             onClick={() => setActiveModule('studio')}
-            className={`hover:text-emerald-400 transition-colors cursor-pointer ${activeModule === 'studio' ? 'text-emerald-400 border-b-2 border-emerald-400 pb-1' : ''}`}
+            className={`hover:text-emerald-400 transition-colors cursor-pointer whitespace-nowrap ${activeModule === 'studio' ? 'text-emerald-400 border-b-2 border-emerald-400 pb-1' : ''}`}
           >
             {t.nav.services}
           </button>
           <button
             onClick={() => setActiveModule('benchmark')}
-            className={`hover:text-emerald-400 transition-colors cursor-pointer ${activeModule === 'benchmark' ? 'text-emerald-400 border-b-2 border-emerald-400 pb-1' : ''}`}
+            className={`hover:text-emerald-400 transition-colors cursor-pointer whitespace-nowrap ${activeModule === 'benchmark' ? 'text-emerald-400 border-b-2 border-emerald-400 pb-1' : ''}`}
           >
             {t.nav.models}
           </button>
           <button
             onClick={() => setActiveModule('normalizer')}
-            className={`hover:text-emerald-400 transition-colors cursor-pointer ${activeModule === 'normalizer' ? 'text-emerald-400 border-b-2 border-emerald-400 pb-1' : ''}`}
+            className={`hover:text-emerald-400 transition-colors cursor-pointer whitespace-nowrap ${activeModule === 'normalizer' ? 'text-emerald-400 border-b-2 border-emerald-400 pb-1' : ''}`}
           >
             {t.nav.process}
           </button>
           <button
             onClick={() => setActiveModule('datasets')}
-            className={`hover:text-emerald-400 transition-colors cursor-pointer ${activeModule === 'datasets' ? 'text-emerald-400 border-b-2 border-emerald-400 pb-1' : ''}`}
+            className={`hover:text-emerald-400 transition-colors cursor-pointer whitespace-nowrap ${activeModule === 'datasets' ? 'text-emerald-400 border-b-2 border-emerald-400 pb-1' : ''}`}
           >
             {t.nav.whyUs}
           </button>
         </nav>
 
-        {/* Right Language Switcher & API Keys Settings Button */}
-        <div className="flex items-center gap-4">
+        {/* Right Controls: API Keys Button + Language Switcher */}
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           {/* API Keys Configuration Button */}
           <button
             onClick={() => setShowKeyModal(true)}
-            className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-xs font-bold transition-all shadow-md shadow-emerald-500/10 cursor-pointer hover:scale-105"
+            className="flex items-center gap-1.5 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-xs font-bold transition-all shadow-md shadow-emerald-500/10 cursor-pointer hover:scale-105 whitespace-nowrap"
           >
-            <Key className="w-4 h-4 text-emerald-400 animate-pulse" />
+            <Key className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-400 animate-pulse" />
             <span>API Keys</span>
           </button>
 
-          <div className="flex items-center gap-1 bg-slate-900/90 p-1.5 rounded-full border border-slate-800 shadow-inner">
-            <Globe className="w-4 h-4 text-emerald-400 ml-2 mr-1" />
+          {/* Language Selector */}
+          <div className="flex items-center gap-1 bg-slate-900/90 p-1 sm:p-1.5 rounded-full border border-slate-800 shadow-inner">
+            <Globe className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-400 mx-1 shrink-0" />
             {[
               { code: 'ckb', label: 'کوردی' },
               { code: 'ar', label: 'العربية' },
@@ -126,7 +127,7 @@ export default function App() {
               <button
                 key={l.code}
                 onClick={() => setLang(l.code)}
-                className={`px-3 py-1 text-xs font-black rounded-full transition-all cursor-pointer ${
+                className={`px-2.5 py-1 text-[11px] sm:text-xs font-black rounded-full transition-all cursor-pointer whitespace-nowrap ${
                   lang === l.code ? 'bg-emerald-400 text-slate-950 shadow-md shadow-emerald-500/30' : 'text-slate-400 hover:text-white'
                 }`}
               >
@@ -134,13 +135,6 @@ export default function App() {
               </button>
             ))}
           </div>
-
-          <button
-            onClick={() => setActiveModule('studio')}
-            className="px-6 py-2.5 rounded-full border border-emerald-400/50 text-emerald-400 hover:bg-emerald-500/20 text-xs font-black transition shadow-lg shadow-emerald-500/10 cursor-pointer"
-          >
-            {t.nav.contact}
-          </button>
         </div>
       </header>
 
