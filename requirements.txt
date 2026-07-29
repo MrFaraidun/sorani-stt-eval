@@ -1,9 +1,3 @@
-# ==============================================================================
-# GreenSorani AI Suite - Production & Evaluation Dependencies
-# Complete audited list of all third-party Python libraries
-# ==============================================================================
-
-# Core Web Server & API Framework
 fastapi>=0.109.0
 uvicorn[standard]>=0.27.0
 python-multipart>=0.0.9
@@ -13,15 +7,9 @@ requests>=2.31.0
 httpx>=0.27.0
 python-dotenv>=1.0.0
 loguru>=0.7.2
-
-# Autonomous Voice Agent Engine
 open-interpreter>=0.2.0
 openai>=1.12.0
-
-# Multimodal & Cloud ASR APIs
 google-genai>=0.1.0
-
-# Deep Learning & Acoustic Model Frameworks
 torch
 torchaudio
 transformers>=4.38.0
@@ -29,20 +17,14 @@ datasets>=2.17.0
 accelerate>=0.27.0
 peft>=0.8.0
 huggingface-hub>=0.20.0
-
-# Audio Processing & Signal Engineering
 librosa>=0.10.1
 soundfile>=0.12.1
 pydub>=0.25.1
 ffmpeg-python>=0.2.0
 noisereduce>=3.0.0
 numpy>=1.26.0
-
-# Evaluation, Metrics & Data Science
 jiwer>=3.0.3
 pandas>=2.2.0
 scikit-learn>=1.4.0
-
-# Testing Framework
 pytest>=8.0.0
 pytest-asyncio>=0.23.0
