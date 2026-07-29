@@ -1,0 +1,13 @@
+clip_id,source_url,dialect,speaker_gender,speaker_age_group,speech_speed,has_music,has_noise,phone_quality,overlapping_speakers,code_switching,audio_path,transcript_path,duration_sec
+clip_01,https://huggingface.co/datasets/razhan/asosoft-speech,sulaymaniyah,female,adult,normal,no,no,no,no,no,datasets/processed/clip_01.wav,datasets/transcripts/clip_01.txt,5.71
+clip_02,https://huggingface.co/datasets/razhan/asosoft-speech,hawler,male,adult,fast,no,yes,no,no,no,datasets/processed/clip_02.wav,datasets/transcripts/clip_02.txt,5.05
+clip_03,https://huggingface.co/datasets/razhan/asosoft-speech,kirkuk,female,adult,slow,no,no,no,no,no,datasets/processed/clip_03.wav,datasets/transcripts/clip_03.txt,5.21
+clip_04,https://huggingface.co/datasets/razhan/asosoft-speech,garmian,male,adult,normal,no,yes,no,no,no,datasets/processed/clip_04.wav,datasets/transcripts/clip_04.txt,5.33
+clip_05,https://huggingface.co/datasets/razhan/asosoft-speech,sulaymaniyah,female,adult,fast,no,no,no,no,no,datasets/processed/clip_05.wav,datasets/transcripts/clip_05.txt,4.8
+clip_06,https://huggingface.co/datasets/razhan/asosoft-speech,hawler,male,adult,slow,no,yes,no,no,no,datasets/processed/clip_06.wav,datasets/transcripts/clip_06.txt,4.42
+clip_07,https://huggingface.co/datasets/razhan/asosoft-speech,kirkuk,female,adult,normal,no,no,no,no,no,datasets/processed/clip_07.wav,datasets/transcripts/clip_07.txt,4.55
+clip_08,https://huggingface.co/datasets/razhan/asosoft-speech,garmian,male,adult,fast,no,yes,no,no,no,datasets/processed/clip_08.wav,datasets/transcripts/clip_08.txt,5.58
+clip_09,https://huggingface.co/datasets/razhan/asosoft-speech,sulaymaniyah,female,adult,slow,no,no,no,no,no,datasets/processed/clip_09.wav,datasets/transcripts/clip_09.txt,5.59
+clip_10,https://huggingface.co/datasets/razhan/asosoft-speech,hawler,male,adult,normal,no,yes,no,no,no,datasets/processed/clip_10.wav,datasets/transcripts/clip_10.txt,4.62
+clip_11,https://huggingface.co/datasets/razhan/asosoft-speech,kirkuk,female,adult,fast,no,no,no,no,no,datasets/processed/clip_11.wav,datasets/transcripts/clip_11.txt,4.67
+clip_12,https://huggingface.co/datasets/razhan/asosoft-speech,garmian,male,adult,slow,no,yes,no,no,no,datasets/processed/clip_12.wav,datasets/transcripts/clip_12.txt,6.21

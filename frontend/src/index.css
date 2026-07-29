@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@layer base {
+  * {
+    font-family: 'Zain', 'Vazirmatn', system-ui, -apple-system, sans-serif !important;
+  }
+
+  body {
+    background-color: #050806;
+    color: #F8FAFC;
+    font-family: 'Zain', 'Vazirmatn', system-ui, -apple-system, sans-serif !important;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Animated Microphone Wave Visualizer Bars */
+@keyframes micWaveBar {
+  0%, 100% {
+    height: 8px;
+  }
+  50% {
+    height: 36px;
+  }
+}
+
+.animate-mic-wave-1 {
+  animation: micWaveBar 0.8s ease-in-out infinite;
+}
+.animate-mic-wave-2 {
+  animation: micWaveBar 0.8s ease-in-out infinite 0.15s;
+}
+.animate-mic-wave-3 {
+  animation: micWaveBar 0.8s ease-in-out infinite 0.3s;
+}
+.animate-mic-wave-4 {
+  animation: micWaveBar 0.8s ease-in-out infinite 0.45s;
+}
+.animate-mic-wave-5 {
+  animation: micWaveBar 0.8s ease-in-out infinite 0.6s;
+}
+
+/* Wireless signal pulse animation */
+@keyframes signalPulse {
+  0%, 100% {
+    opacity: 0.4;
+    transform: scale(0.98);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 8px #00E676);
+  }
+}
+.animate-signal-pulse {
+  animation: signalPulse 2s ease-in-out infinite;
+}
+
+/* Custom Emerald Neon Animations & Glassmorphic 3D Card */
+@keyframes floatCardTilt {
+  0%, 100% {
+    transform: translateY(0px) rotateY(-4deg) rotateX(4deg);
+  }
+  50% {
+    transform: translateY(-12px) rotateY(4deg) rotateX(-2deg);
+  }
+}
+
+@keyframes glowPulseCircle {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.55;
+    filter: blur(70px);
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.85;
+    filter: blur(90px);
+  }
+}
+
+.animate-float-tilt {
+  animation: floatCardTilt 7s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+
+.animate-glow-circle {
+  animation: glowPulseCircle 8s ease-in-out infinite;
+}
+
+/* Glassmorphism Cards matching GreenBank UI & Reference Artwork */
+.glass-green-card {
+  background: linear-gradient(145deg, rgba(14, 26, 20, 0.92) 0%, rgba(6, 15, 10, 0.96) 100%);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(0, 230, 118, 0.35);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.85), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.glass-green-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-green-card-hover:hover {
+  border-color: rgba(0, 230, 118, 0.7);
+  box-shadow: 0 0 35px rgba(0, 230, 118, 0.35);
+  transform: translateY(-5px);
+}
+
+/* Metallic Credit Card 3D Reflection Overlay */
+.card-metallic-glare {
+  background: linear-gradient(
+    115deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.03) 30%,
+    rgba(0, 230, 118, 0.12) 50%,
+    rgba(255, 255, 255, 0.03) 70%,
+    transparent 100%
+  );
+  pointer-events: none;
+}
+
+/* Primary Green Pill Button */
+.btn-green-glow {
+  background: #00E676;
+  color: #04120A;
+  font-weight: 800;
+  box-shadow: 0 0 25px rgba(0, 230, 118, 0.45);
+  transition: all 0.3s ease;
+}
+
+.btn-green-glow:hover {
+  background: #10B981;
+  color: #FFFFFF;
+  box-shadow: 0 0 40px rgba(0, 230, 118, 0.75);
+  transform: scale(1.02);
+}
+
+/* Hand-drawn green circle highlight */
+.green-circle-highlight {
+  position: relative;
+  display: inline-block;
+}
+
+.green-circle-highlight::after {
+  content: '';
+  position: absolute;
+  inset: -6px -12px;
+  border: 3px solid #00E676;
+  border-radius: 50px;
+  transform: rotate(-1.5deg);
+  pointer-events: none;
+  box-shadow: 0 0 15px rgba(0, 230, 118, 0.5);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050806;
+}
+::-webkit-scrollbar-thumb {
+  background: #10261A;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00E676;
+}

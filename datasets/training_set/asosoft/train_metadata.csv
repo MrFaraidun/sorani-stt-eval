@@ -1,0 +1,301 @@
+sample_id,audio_path,transcript_path,text
+asosoft_0290,datasets/training_set/asosoft/audio/asosoft_0290.wav,datasets/training_set/asosoft/transcripts/asosoft_0290.txt,پزیشکەکان هیچ شتێکیان لەم بارەوە نەئەزانی
+asosoft_0015,datasets/training_set/asosoft/audio/asosoft_0015.wav,datasets/training_set/asosoft/transcripts/asosoft_0015.txt,وەرگێڕانی مرۆڤ لە وەرگێڕانی ئامراز ڕێکوپێکترە
+asosoft_0279,datasets/training_set/asosoft/audio/asosoft_0279.wav,datasets/training_set/asosoft/transcripts/asosoft_0279.txt,فەیلەسووف بونیادی گفتوگۆ دەنێت
+asosoft_0133,datasets/training_set/asosoft/audio/asosoft_0133.wav,datasets/training_set/asosoft/transcripts/asosoft_0133.txt,وێناگەلێکی یەکجار سەقامگیر بەرهەم هێنراون
+asosoft_0299,datasets/training_set/asosoft/audio/asosoft_0299.wav,datasets/training_set/asosoft/transcripts/asosoft_0299.txt,گریمانەی ئەو بووە هۆی سێ تێگەیشتنی جیاواز
+asosoft_0236,datasets/training_set/asosoft/audio/asosoft_0236.wav,datasets/training_set/asosoft/transcripts/asosoft_0236.txt,ڕابردوو وای کرد داهاتووشم نەوێت
+asosoft_0149,datasets/training_set/asosoft/audio/asosoft_0149.wav,datasets/training_set/asosoft/transcripts/asosoft_0149.txt,دەنگی زۆر بەرزتر و بەهێزتر بووە
+asosoft_0120,datasets/training_set/asosoft/audio/asosoft_0120.wav,datasets/training_set/asosoft/transcripts/asosoft_0120.txt,بێدەسەڵاتی لێرە بە دواوە دەخرێتە بەر نیگای بەخشندەی خوێنەر
+asosoft_0207,datasets/training_set/asosoft/audio/asosoft_0207.wav,datasets/training_set/asosoft/transcripts/asosoft_0207.txt,فەیلەسووف بونیادی گفتوگۆ دەنێت
+asosoft_0277,datasets/training_set/asosoft/audio/asosoft_0277.wav,datasets/training_set/asosoft/transcripts/asosoft_0277.txt,وێناگەلێکی یەکجار سەقامگیر بەرهەم هێنراون
+asosoft_0128,datasets/training_set/asosoft/audio/asosoft_0128.wav,datasets/training_set/asosoft/transcripts/asosoft_0128.txt,دواکەوتنێکی پڕنەهامەتی و چەرمەسەریی پێوە بوو
+asosoft_0141,datasets/training_set/asosoft/audio/asosoft_0141.wav,datasets/training_set/asosoft/transcripts/asosoft_0141.txt,تا لەشت ساغە قەدری بزانە
+asosoft_0212,datasets/training_set/asosoft/audio/asosoft_0212.wav,datasets/training_set/asosoft/transcripts/asosoft_0212.txt,ئەگەر تاژی زۆری تێبەردەی لە ڕاو دەکەوێت
+asosoft_0221,datasets/training_set/asosoft/audio/asosoft_0221.wav,datasets/training_set/asosoft/transcripts/asosoft_0221.txt,دەنگی زۆر بەرزتر و بەهێزتر بووە
+asosoft_0173,datasets/training_set/asosoft/audio/asosoft_0173.wav,datasets/training_set/asosoft/transcripts/asosoft_0173.txt,لەو هەموو وردبینییە سەریان سووڕ ما
+asosoft_0067,datasets/training_set/asosoft/audio/asosoft_0067.wav,datasets/training_set/asosoft/transcripts/asosoft_0067.txt,تاسەی دۆعاکردن و نزا و پاڕانەوەی بەرەبەیانان دەکەم
+asosoft_0121,datasets/training_set/asosoft/audio/asosoft_0121.wav,datasets/training_set/asosoft/transcripts/asosoft_0121.txt,پێشتریش واتای زۆر وشەم ڕوون کردبۆوە
+asosoft_0217,datasets/training_set/asosoft/audio/asosoft_0217.wav,datasets/training_set/asosoft/transcripts/asosoft_0217.txt,هیچ جۆرە دەرمانێک بۆ ئەو نەخۆشییە نەبوو
+asosoft_0280,datasets/training_set/asosoft/audio/asosoft_0280.wav,datasets/training_set/asosoft/transcripts/asosoft_0280.txt,شۆڕشی ڕاستەقینە ڕووئەدات
+asosoft_0050,datasets/training_set/asosoft/audio/asosoft_0050.wav,datasets/training_set/asosoft/transcripts/asosoft_0050.txt,ناکرێت کولتوورێک لە بنەڕەتدا بە خراپ ناوزەد بکرێت
+asosoft_0184,datasets/training_set/asosoft/audio/asosoft_0184.wav,datasets/training_set/asosoft/transcripts/asosoft_0184.txt,من بە چاوێکی واقیعبین سەیری دەکەم
+asosoft_0122,datasets/training_set/asosoft/audio/asosoft_0122.wav,datasets/training_set/asosoft/transcripts/asosoft_0122.txt,ناکرێت کولتوورێک لە بنەڕەتدا بە خراپ ناوزەد بکرێت
+asosoft_0150,datasets/training_set/asosoft/audio/asosoft_0150.wav,datasets/training_set/asosoft/transcripts/asosoft_0150.txt,هەرکام لەم قۆناغانە لەگەڵ سەردەمێک یەکتر دەگرنەوە
+asosoft_0049,datasets/training_set/asosoft/audio/asosoft_0049.wav,datasets/training_set/asosoft/transcripts/asosoft_0049.txt,پێشتریش واتای زۆر وشەم ڕوون کردبۆوە
+asosoft_0009,datasets/training_set/asosoft/audio/asosoft_0009.wav,datasets/training_set/asosoft/transcripts/asosoft_0009.txt,دەبێ وەرگێڕ لە نێوەڕۆکی دەق تێبگات
+asosoft_0213,datasets/training_set/asosoft/audio/asosoft_0213.wav,datasets/training_set/asosoft/transcripts/asosoft_0213.txt,تا لەشت ساغە قەدری بزانە
+asosoft_0228,datasets/training_set/asosoft/audio/asosoft_0228.wav,datasets/training_set/asosoft/transcripts/asosoft_0228.txt,لە ڕاستیدا وانەی ئەو بریتییە لە گەلێک بواری زانستی
+asosoft_0019,datasets/training_set/asosoft/audio/asosoft_0019.wav,datasets/training_set/asosoft/transcripts/asosoft_0019.txt,لە بەشی شەش و حەوتی سەفەردایە
+asosoft_0098,datasets/training_set/asosoft/audio/asosoft_0098.wav,datasets/training_set/asosoft/transcripts/asosoft_0098.txt,بەها و متمانەی کۆمەڵایەتی دوو هۆکاری گرینگن
+asosoft_0109,datasets/training_set/asosoft/audio/asosoft_0109.wav,datasets/training_set/asosoft/transcripts/asosoft_0109.txt,نامەیەک گەیشت و بە خوێندنەوەی دڵشاد بووم
+asosoft_0276,datasets/training_set/asosoft/audio/asosoft_0276.wav,datasets/training_set/asosoft/transcripts/asosoft_0276.txt,گوڵی بۆنخۆش بژاکێت بۆنی دەڕەوێت
+asosoft_0298,datasets/training_set/asosoft/audio/asosoft_0298.wav,datasets/training_set/asosoft/transcripts/asosoft_0298.txt,ڕاهێنان و فێرکردنی هاسان و سانا بێ
+asosoft_0268,datasets/training_set/asosoft/audio/asosoft_0268.wav,datasets/training_set/asosoft/transcripts/asosoft_0268.txt,سمایل پاشا شتە تەکووزەکان وێکڕا خڕ دەکاتەوە
+asosoft_0028,datasets/training_set/asosoft/audio/asosoft_0028.wav,datasets/training_set/asosoft/transcripts/asosoft_0028.txt,دەفتەرەکانی وەرگرتن و ماڵاواییان کرد
+asosoft_0249,datasets/training_set/asosoft/audio/asosoft_0249.wav,datasets/training_set/asosoft/transcripts/asosoft_0249.txt,تکایە زووتر بۆم بنووسن حاڵی مەحموودخان چۆنە
+asosoft_0227,datasets/training_set/asosoft/audio/asosoft_0227.wav,datasets/training_set/asosoft/transcripts/asosoft_0227.txt,گریمانەی ئەو بووە هۆی سێ تێگەیشتنی جیاواز
+asosoft_0016,datasets/training_set/asosoft/audio/asosoft_0016.wav,datasets/training_set/asosoft/transcripts/asosoft_0016.txt,بە شێوەیەکی گشتی گواستنەوەی واتا ئەستەمە
+asosoft_0048,datasets/training_set/asosoft/audio/asosoft_0048.wav,datasets/training_set/asosoft/transcripts/asosoft_0048.txt,بێدەسەڵاتی لێرە بە دواوە دەخرێتە بەر نیگای بەخشندەی خوێنەر
+asosoft_0132,datasets/training_set/asosoft/audio/asosoft_0132.wav,datasets/training_set/asosoft/transcripts/asosoft_0132.txt,گوڵی بۆنخۆش بژاکێت بۆنی دەڕەوێت
+asosoft_0006,datasets/training_set/asosoft/audio/asosoft_0006.wav,datasets/training_set/asosoft/transcripts/asosoft_0006.txt,هەرکام لەم قۆناغانە لەگەڵ سەردەمێک یەکتر دەگرنەوە
+asosoft_0179,datasets/training_set/asosoft/audio/asosoft_0179.wav,datasets/training_set/asosoft/transcripts/asosoft_0179.txt,ئەو فڕۆکانەی بە ئاسمانەوەن ترسێنەرن
+asosoft_0272,datasets/training_set/asosoft/audio/asosoft_0272.wav,datasets/training_set/asosoft/transcripts/asosoft_0272.txt,دواکەوتنێکی پڕنەهامەتی و چەرمەسەریی پێوە بوو
+asosoft_0175,datasets/training_set/asosoft/audio/asosoft_0175.wav,datasets/training_set/asosoft/transcripts/asosoft_0175.txt,هێندێک لە مانەوەم لە ماڵدا وەڕەزم
+asosoft_0222,datasets/training_set/asosoft/audio/asosoft_0222.wav,datasets/training_set/asosoft/transcripts/asosoft_0222.txt,هەرکام لەم قۆناغانە لەگەڵ سەردەمێک یەکتر دەگرنەوە
+asosoft_0210,datasets/training_set/asosoft/audio/asosoft_0210.wav,datasets/training_set/asosoft/transcripts/asosoft_0210.txt,ناوئاخنی کتێبەکان لێوانلێوە لە چەمکە دژوازەکان
+asosoft_0031,datasets/training_set/asosoft/audio/asosoft_0031.wav,datasets/training_set/asosoft/transcripts/asosoft_0031.txt,هێندێک لە مانەوەم لە ماڵدا وەڕەزم
+asosoft_0123,datasets/training_set/asosoft/audio/asosoft_0123.wav,datasets/training_set/asosoft/transcripts/asosoft_0123.txt,ڕەوایی و جێی متمانەبوونی کەلوپەلەکان هەڵسەنگێندراون
+asosoft_0040,datasets/training_set/asosoft/audio/asosoft_0040.wav,datasets/training_set/asosoft/transcripts/asosoft_0040.txt,من بە چاوێکی واقیعبین سەیری دەکەم
+asosoft_0047,datasets/training_set/asosoft/audio/asosoft_0047.wav,datasets/training_set/asosoft/transcripts/asosoft_0047.txt,ئەم بەشەی سێیەمی حاجی قادر یەک مانگ لە کاتی خۆی دواکەوت
+asosoft_0263,datasets/training_set/asosoft/audio/asosoft_0263.wav,datasets/training_set/asosoft/transcripts/asosoft_0263.txt,ئەم بەشەی سێیەمی حاجی قادر یەک مانگ لە کاتی خۆی دواکەوت
+asosoft_0287,datasets/training_set/asosoft/audio/asosoft_0287.wav,datasets/training_set/asosoft/transcripts/asosoft_0287.txt,غەفوور کەمعورزە و ڕێواس جلپێهات حەڤدە قووچی برژیاگیش ئەخۆن
+asosoft_0229,datasets/training_set/asosoft/audio/asosoft_0229.wav,datasets/training_set/asosoft/transcripts/asosoft_0229.txt,دەکرێ ئەم خاڵە لەنێوان دوو ئاستدا پۆلێن کەین
+asosoft_0232,datasets/training_set/asosoft/audio/asosoft_0232.wav,datasets/training_set/asosoft/transcripts/asosoft_0232.txt,بە شێوەیەکی گشتی گواستنەوەی واتا ئەستەمە
+asosoft_0076,datasets/training_set/asosoft/audio/asosoft_0076.wav,datasets/training_set/asosoft/transcripts/asosoft_0076.txt,ناکرێت بە وردی بودجەی هالیوۆد دیاری کرێ
+asosoft_0154,datasets/training_set/asosoft/audio/asosoft_0154.wav,datasets/training_set/asosoft/transcripts/asosoft_0154.txt,ڕاهێنان و فێرکردنی هاسان و سانا بێ
+asosoft_0057,datasets/training_set/asosoft/audio/asosoft_0057.wav,datasets/training_set/asosoft/transcripts/asosoft_0057.txt,عوسیان و خەتایەک لە هەیڤی تەمووز قەوماوە
+asosoft_0218,datasets/training_set/asosoft/audio/asosoft_0218.wav,datasets/training_set/asosoft/transcripts/asosoft_0218.txt,پزیشکەکان هیچ شتێکیان لەم بارەوە نەئەزانی
+asosoft_0200,datasets/training_set/asosoft/audio/asosoft_0200.wav,datasets/training_set/asosoft/transcripts/asosoft_0200.txt,دواکەوتنێکی پڕنەهامەتی و چەرمەسەریی پێوە بوو
+asosoft_0190,datasets/training_set/asosoft/audio/asosoft_0190.wav,datasets/training_set/asosoft/transcripts/asosoft_0190.txt,خەڵقی ئەو کاتانەش هەروەک ئێستا چاکەی خۆیان مەتڵەب بووە
+asosoft_0205,datasets/training_set/asosoft/audio/asosoft_0205.wav,datasets/training_set/asosoft/transcripts/asosoft_0205.txt,وێناگەلێکی یەکجار سەقامگیر بەرهەم هێنراون
+asosoft_0115,datasets/training_set/asosoft/audio/asosoft_0115.wav,datasets/training_set/asosoft/transcripts/asosoft_0115.txt,بەپێی ئەو ناسینەوەیە ڕقیان لێ هەڵدەگرین
+asosoft_0255,datasets/training_set/asosoft/audio/asosoft_0255.wav,datasets/training_set/asosoft/transcripts/asosoft_0255.txt,ماچی ئافەرینی لە ناوچەوانی کرد
+asosoft_0243,datasets/training_set/asosoft/audio/asosoft_0243.wav,datasets/training_set/asosoft/transcripts/asosoft_0243.txt,بڕێک جار ڕووبەڕووبوونەوەکان پێشبینی ناکرێن
+asosoft_0158,datasets/training_set/asosoft/audio/asosoft_0158.wav,datasets/training_set/asosoft/transcripts/asosoft_0158.txt,تەنیا وڵامێکی ڕازیکەر بەم پرسیارە ساکارە ئەدەینەوە
+asosoft_0188,datasets/training_set/asosoft/audio/asosoft_0188.wav,datasets/training_set/asosoft/transcripts/asosoft_0188.txt,ئەوانەن کە پێیان دەگوترێ دەست و پێ سپی
+asosoft_0238,datasets/training_set/asosoft/audio/asosoft_0238.wav,datasets/training_set/asosoft/transcripts/asosoft_0238.txt,ژیان و دەسەڵاتی ئابووری پێکەوە گرێدراون
+asosoft_0060,datasets/training_set/asosoft/audio/asosoft_0060.wav,datasets/training_set/asosoft/transcripts/asosoft_0060.txt,گوڵی بۆنخۆش بژاکێت بۆنی دەڕەوێت
+asosoft_0118,datasets/training_set/asosoft/audio/asosoft_0118.wav,datasets/training_set/asosoft/transcripts/asosoft_0118.txt,خەڵقی ئەو کاتانەش هەروەک ئێستا چاکەی خۆیان مەتڵەب بووە
+asosoft_0021,datasets/training_set/asosoft/audio/asosoft_0021.wav,datasets/training_set/asosoft/transcripts/asosoft_0021.txt,لەگەڵ ئەمانەشدا تەنانەت ئەویش نەهات
+asosoft_0259,datasets/training_set/asosoft/audio/asosoft_0259.wav,datasets/training_set/asosoft/transcripts/asosoft_0259.txt,بەپێی ئەو ناسینەوەیە ڕقیان لێ هەڵدەگرین
+asosoft_0285,datasets/training_set/asosoft/audio/asosoft_0285.wav,datasets/training_set/asosoft/transcripts/asosoft_0285.txt,تا لەشت ساغە قەدری بزانە
+asosoft_0264,datasets/training_set/asosoft/audio/asosoft_0264.wav,datasets/training_set/asosoft/transcripts/asosoft_0264.txt,بێدەسەڵاتی لێرە بە دواوە دەخرێتە بەر نیگای بەخشندەی خوێنەر
+asosoft_0202,datasets/training_set/asosoft/audio/asosoft_0202.wav,datasets/training_set/asosoft/transcripts/asosoft_0202.txt,ئەوە شوێنی مشتومڕە و گوزارەکەی ڕۆڵێکیش دەبینێت
+asosoft_0135,datasets/training_set/asosoft/audio/asosoft_0135.wav,datasets/training_set/asosoft/transcripts/asosoft_0135.txt,فەیلەسووف بونیادی گفتوگۆ دەنێت
+asosoft_0281,datasets/training_set/asosoft/audio/asosoft_0281.wav,datasets/training_set/asosoft/transcripts/asosoft_0281.txt,تەوێڵی گرژ و سێبەری قورسی شەکەتی کردم
+asosoft_0237,datasets/training_set/asosoft/audio/asosoft_0237.wav,datasets/training_set/asosoft/transcripts/asosoft_0237.txt,لەگەڵ ئەمانەشدا تەنانەت ئەویش نەهات
+asosoft_0156,datasets/training_set/asosoft/audio/asosoft_0156.wav,datasets/training_set/asosoft/transcripts/asosoft_0156.txt,لە ڕاستیدا وانەی ئەو بریتییە لە گەلێک بواری زانستی
+asosoft_0113,datasets/training_set/asosoft/audio/asosoft_0113.wav,datasets/training_set/asosoft/transcripts/asosoft_0113.txt,من بە کوتنەوەی باسەکان خوێنەر ماندوو دەکەم
+asosoft_0165,datasets/training_set/asosoft/audio/asosoft_0165.wav,datasets/training_set/asosoft/transcripts/asosoft_0165.txt,لەگەڵ ئەمانەشدا تەنانەت ئەویش نەهات
+asosoft_0136,datasets/training_set/asosoft/audio/asosoft_0136.wav,datasets/training_set/asosoft/transcripts/asosoft_0136.txt,شۆڕشی ڕاستەقینە ڕووئەدات
+asosoft_0248,datasets/training_set/asosoft/audio/asosoft_0248.wav,datasets/training_set/asosoft/transcripts/asosoft_0248.txt,ئێستا گوێ ڕاگرن بۆتان دەخوێنمەوە
+asosoft_0269,datasets/training_set/asosoft/audio/asosoft_0269.wav,datasets/training_set/asosoft/transcripts/asosoft_0269.txt,سەرجەم ئەم ئەرگۆمێنتە پابەندە بە پێناسەی کەسەوە
+asosoft_0289,datasets/training_set/asosoft/audio/asosoft_0289.wav,datasets/training_set/asosoft/transcripts/asosoft_0289.txt,هیچ جۆرە دەرمانێک بۆ ئەو نەخۆشییە نەبوو
+asosoft_0267,datasets/training_set/asosoft/audio/asosoft_0267.wav,datasets/training_set/asosoft/transcripts/asosoft_0267.txt,ڕەوایی و جێی متمانەبوونی کەلوپەلەکان هەڵسەنگێندراون
+asosoft_0096,datasets/training_set/asosoft/audio/asosoft_0096.wav,datasets/training_set/asosoft/transcripts/asosoft_0096.txt,قازانجەکانی ئەم کارە گونجاوە زۆرن
+asosoft_0198,datasets/training_set/asosoft/audio/asosoft_0198.wav,datasets/training_set/asosoft/transcripts/asosoft_0198.txt,لەم دەقەدا ئێمە عیبارەتی تەمومژاوی دەبینینەوە
+asosoft_0203,datasets/training_set/asosoft/audio/asosoft_0203.wav,datasets/training_set/asosoft/transcripts/asosoft_0203.txt,باس و مشتومڕی بارمتەکان بزاڤەکەی شەمزاندووە
+asosoft_0073,datasets/training_set/asosoft/audio/asosoft_0073.wav,datasets/training_set/asosoft/transcripts/asosoft_0073.txt,هیچ جۆرە دەرمانێک بۆ ئەو نەخۆشییە نەبوو
+asosoft_0231,datasets/training_set/asosoft/audio/asosoft_0231.wav,datasets/training_set/asosoft/transcripts/asosoft_0231.txt,وەرگێڕانی مرۆڤ لە وەرگێڕانی ئامراز ڕێکوپێکترە
+asosoft_0288,datasets/training_set/asosoft/audio/asosoft_0288.wav,datasets/training_set/asosoft/transcripts/asosoft_0288.txt,هەژار حەمەعەلی و خەجێ مرۆڤ چەن قفڵ و گسکی شپرزی باغیان تووڕ دا
+asosoft_0053,datasets/training_set/asosoft/audio/asosoft_0053.wav,datasets/training_set/asosoft/transcripts/asosoft_0053.txt,سەرجەم ئەم ئەرگۆمێنتە پابەندە بە پێناسەی کەسەوە
+asosoft_0018,datasets/training_set/asosoft/audio/asosoft_0018.wav,datasets/training_set/asosoft/transcripts/asosoft_0018.txt,دوای یۆنانییەکان سەرەی ڕۆمییەکان هات
+asosoft_0293,datasets/training_set/asosoft/audio/asosoft_0293.wav,datasets/training_set/asosoft/transcripts/asosoft_0293.txt,دەنگی زۆر بەرزتر و بەهێزتر بووە
+asosoft_0084,datasets/training_set/asosoft/audio/asosoft_0084.wav,datasets/training_set/asosoft/transcripts/asosoft_0084.txt,لە ڕاستیدا وانەی ئەو بریتییە لە گەلێک بواری زانستی
+asosoft_0161,datasets/training_set/asosoft/audio/asosoft_0161.wav,datasets/training_set/asosoft/transcripts/asosoft_0161.txt,هەڵبەت ئەوە تەنیا بەسەرهاتی زیندەخەوێک نییە
+asosoft_0219,datasets/training_set/asosoft/audio/asosoft_0219.wav,datasets/training_set/asosoft/transcripts/asosoft_0219.txt,وەرن با شارێکی بێجەمسەر دروست بکەین
+asosoft_0187,datasets/training_set/asosoft/audio/asosoft_0187.wav,datasets/training_set/asosoft/transcripts/asosoft_0187.txt,بەپێی ئەو ناسینەوەیە ڕقیان لێ هەڵدەگرین
+asosoft_0261,datasets/training_set/asosoft/audio/asosoft_0261.wav,datasets/training_set/asosoft/transcripts/asosoft_0261.txt,جاروبار حیسابێکی کەم بۆ زێدە دەستدرێژییەک دەکرێت
+asosoft_0245,datasets/training_set/asosoft/audio/asosoft_0245.wav,datasets/training_set/asosoft/transcripts/asosoft_0245.txt,لەو هەموو وردبینییە سەریان سووڕ ما
+asosoft_0206,datasets/training_set/asosoft/audio/asosoft_0206.wav,datasets/training_set/asosoft/transcripts/asosoft_0206.txt,لەم دونیایە بچوون و نەچوون وەکوو یەک وان
+asosoft_0193,datasets/training_set/asosoft/audio/asosoft_0193.wav,datasets/training_set/asosoft/transcripts/asosoft_0193.txt,پێشتریش واتای زۆر وشەم ڕوون کردبۆوە
+asosoft_0224,datasets/training_set/asosoft/audio/asosoft_0224.wav,datasets/training_set/asosoft/transcripts/asosoft_0224.txt,بۆ دیاریکردنی نێوان نێرینە و مێیینە باشە
+asosoft_0010,datasets/training_set/asosoft/audio/asosoft_0010.wav,datasets/training_set/asosoft/transcripts/asosoft_0010.txt,ڕاهێنان و فێرکردنی هاسان و سانا بێ
+asosoft_0275,datasets/training_set/asosoft/audio/asosoft_0275.wav,datasets/training_set/asosoft/transcripts/asosoft_0275.txt,باس و مشتومڕی بارمتەکان بزاڤەکەی شەمزاندووە
+asosoft_0201,datasets/training_set/asosoft/audio/asosoft_0201.wav,datasets/training_set/asosoft/transcripts/asosoft_0201.txt,عوسیان و خەتایەک لە هەیڤی تەمووز قەوماوە
+asosoft_0095,datasets/training_set/asosoft/audio/asosoft_0095.wav,datasets/training_set/asosoft/transcripts/asosoft_0095.txt,کاتێک پێش دەکەوین کە سەفیری وڵاتەکان سەردانمان کەن
+asosoft_0020,datasets/training_set/asosoft/audio/asosoft_0020.wav,datasets/training_set/asosoft/transcripts/asosoft_0020.txt,ڕابردوو وای کرد داهاتووشم نەوێت
+asosoft_0225,datasets/training_set/asosoft/audio/asosoft_0225.wav,datasets/training_set/asosoft/transcripts/asosoft_0225.txt,دەبێ وەرگێڕ لە نێوەڕۆکی دەق تێبگات
+asosoft_0091,datasets/training_set/asosoft/audio/asosoft_0091.wav,datasets/training_set/asosoft/transcripts/asosoft_0091.txt,لە بەشی شەش و حەوتی سەفەردایە
+asosoft_0169,datasets/training_set/asosoft/audio/asosoft_0169.wav,datasets/training_set/asosoft/transcripts/asosoft_0169.txt,ڕەنگە بە ئاسانی ئەم دیاردەیە پێناسە بکەین
+asosoft_0170,datasets/training_set/asosoft/audio/asosoft_0170.wav,datasets/training_set/asosoft/transcripts/asosoft_0170.txt,بەها و متمانەی کۆمەڵایەتی دوو هۆکاری گرینگن
+asosoft_0162,datasets/training_set/asosoft/audio/asosoft_0162.wav,datasets/training_set/asosoft/transcripts/asosoft_0162.txt,دوای یۆنانییەکان سەرەی ڕۆمییەکان هات
+asosoft_0124,datasets/training_set/asosoft/audio/asosoft_0124.wav,datasets/training_set/asosoft/transcripts/asosoft_0124.txt,سمایل پاشا شتە تەکووزەکان وێکڕا خڕ دەکاتەوە
+asosoft_0078,datasets/training_set/asosoft/audio/asosoft_0078.wav,datasets/training_set/asosoft/transcripts/asosoft_0078.txt,هەرکام لەم قۆناغانە لەگەڵ سەردەمێک یەکتر دەگرنەوە
+asosoft_0105,datasets/training_set/asosoft/audio/asosoft_0105.wav,datasets/training_set/asosoft/transcripts/asosoft_0105.txt,تکایە زووتر بۆم بنووسن حاڵی مەحموودخان چۆنە
+asosoft_0143,datasets/training_set/asosoft/audio/asosoft_0143.wav,datasets/training_set/asosoft/transcripts/asosoft_0143.txt,غەفوور کەمعورزە و ڕێواس جلپێهات حەڤدە قووچی برژیاگیش ئەخۆن
+asosoft_0273,datasets/training_set/asosoft/audio/asosoft_0273.wav,datasets/training_set/asosoft/transcripts/asosoft_0273.txt,عوسیان و خەتایەک لە هەیڤی تەمووز قەوماوە
+asosoft_0171,datasets/training_set/asosoft/audio/asosoft_0171.wav,datasets/training_set/asosoft/transcripts/asosoft_0171.txt,بڕێک جار ڕووبەڕووبوونەوەکان پێشبینی ناکرێن
+asosoft_0065,datasets/training_set/asosoft/audio/asosoft_0065.wav,datasets/training_set/asosoft/transcripts/asosoft_0065.txt,تەوێڵی گرژ و سێبەری قورسی شەکەتی کردم
+asosoft_0102,datasets/training_set/asosoft/audio/asosoft_0102.wav,datasets/training_set/asosoft/transcripts/asosoft_0102.txt,هەوەڵجار خێراخێرا پاشان هێواشتر هەڵی ئەدانەوە
+asosoft_0100,datasets/training_set/asosoft/audio/asosoft_0100.wav,datasets/training_set/asosoft/transcripts/asosoft_0100.txt,دەفتەرەکانی وەرگرتن و ماڵاواییان کرد
+asosoft_0140,datasets/training_set/asosoft/audio/asosoft_0140.wav,datasets/training_set/asosoft/transcripts/asosoft_0140.txt,ئەگەر تاژی زۆری تێبەردەی لە ڕاو دەکەوێت
+asosoft_0013,datasets/training_set/asosoft/audio/asosoft_0013.wav,datasets/training_set/asosoft/transcripts/asosoft_0013.txt,دەکرێ ئەم خاڵە لەنێوان دوو ئاستدا پۆلێن کەین
+asosoft_0014,datasets/training_set/asosoft/audio/asosoft_0014.wav,datasets/training_set/asosoft/transcripts/asosoft_0014.txt,تەنیا وڵامێکی ڕازیکەر بەم پرسیارە ساکارە ئەدەینەوە
+asosoft_0151,datasets/training_set/asosoft/audio/asosoft_0151.wav,datasets/training_set/asosoft/transcripts/asosoft_0151.txt,ئەو پێویستە بۆ ئەنجامدانی هێندێک کاروبار
+asosoft_0274,datasets/training_set/asosoft/audio/asosoft_0274.wav,datasets/training_set/asosoft/transcripts/asosoft_0274.txt,ئەوە شوێنی مشتومڕە و گوزارەکەی ڕۆڵێکیش دەبینێت
+asosoft_0058,datasets/training_set/asosoft/audio/asosoft_0058.wav,datasets/training_set/asosoft/transcripts/asosoft_0058.txt,ئەوە شوێنی مشتومڕە و گوزارەکەی ڕۆڵێکیش دەبینێت
+asosoft_0022,datasets/training_set/asosoft/audio/asosoft_0022.wav,datasets/training_set/asosoft/transcripts/asosoft_0022.txt,ژیان و دەسەڵاتی ئابووری پێکەوە گرێدراون
+asosoft_0081,datasets/training_set/asosoft/audio/asosoft_0081.wav,datasets/training_set/asosoft/transcripts/asosoft_0081.txt,دەبێ وەرگێڕ لە نێوەڕۆکی دەق تێبگات
+asosoft_0039,datasets/training_set/asosoft/audio/asosoft_0039.wav,datasets/training_set/asosoft/transcripts/asosoft_0039.txt,ماچی ئافەرینی لە ناوچەوانی کرد
+asosoft_0116,datasets/training_set/asosoft/audio/asosoft_0116.wav,datasets/training_set/asosoft/transcripts/asosoft_0116.txt,ئەوانەن کە پێیان دەگوترێ دەست و پێ سپی
+asosoft_0257,datasets/training_set/asosoft/audio/asosoft_0257.wav,datasets/training_set/asosoft/transcripts/asosoft_0257.txt,من بە کوتنەوەی باسەکان خوێنەر ماندوو دەکەم
+asosoft_0051,datasets/training_set/asosoft/audio/asosoft_0051.wav,datasets/training_set/asosoft/transcripts/asosoft_0051.txt,ڕەوایی و جێی متمانەبوونی کەلوپەلەکان هەڵسەنگێندراون
+asosoft_0152,datasets/training_set/asosoft/audio/asosoft_0152.wav,datasets/training_set/asosoft/transcripts/asosoft_0152.txt,بۆ دیاریکردنی نێوان نێرینە و مێیینە باشە
+asosoft_0003,datasets/training_set/asosoft/audio/asosoft_0003.wav,datasets/training_set/asosoft/transcripts/asosoft_0003.txt,وەرن با شارێکی بێجەمسەر دروست بکەین
+asosoft_0064,datasets/training_set/asosoft/audio/asosoft_0064.wav,datasets/training_set/asosoft/transcripts/asosoft_0064.txt,شۆڕشی ڕاستەقینە ڕووئەدات
+asosoft_0007,datasets/training_set/asosoft/audio/asosoft_0007.wav,datasets/training_set/asosoft/transcripts/asosoft_0007.txt,ئەو پێویستە بۆ ئەنجامدانی هێندێک کاروبار
+asosoft_0119,datasets/training_set/asosoft/audio/asosoft_0119.wav,datasets/training_set/asosoft/transcripts/asosoft_0119.txt,ئەم بەشەی سێیەمی حاجی قادر یەک مانگ لە کاتی خۆی دواکەوت
+asosoft_0068,datasets/training_set/asosoft/audio/asosoft_0068.wav,datasets/training_set/asosoft/transcripts/asosoft_0068.txt,ئەگەر تاژی زۆری تێبەردەی لە ڕاو دەکەوێت
+asosoft_0139,datasets/training_set/asosoft/audio/asosoft_0139.wav,datasets/training_set/asosoft/transcripts/asosoft_0139.txt,تاسەی دۆعاکردن و نزا و پاڕانەوەی بەرەبەیانان دەکەم
+asosoft_0183,datasets/training_set/asosoft/audio/asosoft_0183.wav,datasets/training_set/asosoft/transcripts/asosoft_0183.txt,ماچی ئافەرینی لە ناوچەوانی کرد
+asosoft_0134,datasets/training_set/asosoft/audio/asosoft_0134.wav,datasets/training_set/asosoft/transcripts/asosoft_0134.txt,لەم دونیایە بچوون و نەچوون وەکوو یەک وان
+asosoft_0294,datasets/training_set/asosoft/audio/asosoft_0294.wav,datasets/training_set/asosoft/transcripts/asosoft_0294.txt,هەرکام لەم قۆناغانە لەگەڵ سەردەمێک یەکتر دەگرنەوە
+asosoft_0246,datasets/training_set/asosoft/audio/asosoft_0246.wav,datasets/training_set/asosoft/transcripts/asosoft_0246.txt,هەوەڵجار خێراخێرا پاشان هێواشتر هەڵی ئەدانەوە
+asosoft_0297,datasets/training_set/asosoft/audio/asosoft_0297.wav,datasets/training_set/asosoft/transcripts/asosoft_0297.txt,دەبێ وەرگێڕ لە نێوەڕۆکی دەق تێبگات
+asosoft_0155,datasets/training_set/asosoft/audio/asosoft_0155.wav,datasets/training_set/asosoft/transcripts/asosoft_0155.txt,گریمانەی ئەو بووە هۆی سێ تێگەیشتنی جیاواز
+asosoft_0125,datasets/training_set/asosoft/audio/asosoft_0125.wav,datasets/training_set/asosoft/transcripts/asosoft_0125.txt,سەرجەم ئەم ئەرگۆمێنتە پابەندە بە پێناسەی کەسەوە
+asosoft_0242,datasets/training_set/asosoft/audio/asosoft_0242.wav,datasets/training_set/asosoft/transcripts/asosoft_0242.txt,بەها و متمانەی کۆمەڵایەتی دوو هۆکاری گرینگن
+asosoft_0192,datasets/training_set/asosoft/audio/asosoft_0192.wav,datasets/training_set/asosoft/transcripts/asosoft_0192.txt,بێدەسەڵاتی لێرە بە دواوە دەخرێتە بەر نیگای بەخشندەی خوێنەر
+asosoft_0199,datasets/training_set/asosoft/audio/asosoft_0199.wav,datasets/training_set/asosoft/transcripts/asosoft_0199.txt,پۆلیسەکان مەعموولەن بە کەلەپچە خپت دەکەن
+asosoft_0216,datasets/training_set/asosoft/audio/asosoft_0216.wav,datasets/training_set/asosoft/transcripts/asosoft_0216.txt,هەژار حەمەعەلی و خەجێ مرۆڤ چەن قفڵ و گسکی شپرزی باغیان تووڕ دا
+asosoft_0082,datasets/training_set/asosoft/audio/asosoft_0082.wav,datasets/training_set/asosoft/transcripts/asosoft_0082.txt,ڕاهێنان و فێرکردنی هاسان و سانا بێ
+asosoft_0256,datasets/training_set/asosoft/audio/asosoft_0256.wav,datasets/training_set/asosoft/transcripts/asosoft_0256.txt,من بە چاوێکی واقیعبین سەیری دەکەم
+asosoft_0037,datasets/training_set/asosoft/audio/asosoft_0037.wav,datasets/training_set/asosoft/transcripts/asosoft_0037.txt,نامەیەک گەیشت و بە خوێندنەوەی دڵشاد بووم
+asosoft_0088,datasets/training_set/asosoft/audio/asosoft_0088.wav,datasets/training_set/asosoft/transcripts/asosoft_0088.txt,بە شێوەیەکی گشتی گواستنەوەی واتا ئەستەمە
+asosoft_0176,datasets/training_set/asosoft/audio/asosoft_0176.wav,datasets/training_set/asosoft/transcripts/asosoft_0176.txt,ئێستا گوێ ڕاگرن بۆتان دەخوێنمەوە
+asosoft_0129,datasets/training_set/asosoft/audio/asosoft_0129.wav,datasets/training_set/asosoft/transcripts/asosoft_0129.txt,عوسیان و خەتایەک لە هەیڤی تەمووز قەوماوە
+asosoft_0108,datasets/training_set/asosoft/audio/asosoft_0108.wav,datasets/training_set/asosoft/transcripts/asosoft_0108.txt,ئەوە ڕاستییەکی بنجی و ڕەگداکوتاوە
+asosoft_0087,datasets/training_set/asosoft/audio/asosoft_0087.wav,datasets/training_set/asosoft/transcripts/asosoft_0087.txt,وەرگێڕانی مرۆڤ لە وەرگێڕانی ئامراز ڕێکوپێکترە
+asosoft_0044,datasets/training_set/asosoft/audio/asosoft_0044.wav,datasets/training_set/asosoft/transcripts/asosoft_0044.txt,ئەوانەن کە پێیان دەگوترێ دەست و پێ سپی
+asosoft_0017,datasets/training_set/asosoft/audio/asosoft_0017.wav,datasets/training_set/asosoft/transcripts/asosoft_0017.txt,هەڵبەت ئەوە تەنیا بەسەرهاتی زیندەخەوێک نییە
+asosoft_0023,datasets/training_set/asosoft/audio/asosoft_0023.wav,datasets/training_set/asosoft/transcripts/asosoft_0023.txt,کاتێک پێش دەکەوین کە سەفیری وڵاتەکان سەردانمان کەن
+asosoft_0148,datasets/training_set/asosoft/audio/asosoft_0148.wav,datasets/training_set/asosoft/transcripts/asosoft_0148.txt,ناکرێت بە وردی بودجەی هالیوۆد دیاری کرێ
+asosoft_0295,datasets/training_set/asosoft/audio/asosoft_0295.wav,datasets/training_set/asosoft/transcripts/asosoft_0295.txt,ئەو پێویستە بۆ ئەنجامدانی هێندێک کاروبار
+asosoft_0030,datasets/training_set/asosoft/audio/asosoft_0030.wav,datasets/training_set/asosoft/transcripts/asosoft_0030.txt,هەوەڵجار خێراخێرا پاشان هێواشتر هەڵی ئەدانەوە
+asosoft_0112,datasets/training_set/asosoft/audio/asosoft_0112.wav,datasets/training_set/asosoft/transcripts/asosoft_0112.txt,من بە چاوێکی واقیعبین سەیری دەکەم
+asosoft_0126,datasets/training_set/asosoft/audio/asosoft_0126.wav,datasets/training_set/asosoft/transcripts/asosoft_0126.txt,لەم دەقەدا ئێمە عیبارەتی تەمومژاوی دەبینینەوە
+asosoft_0138,datasets/training_set/asosoft/audio/asosoft_0138.wav,datasets/training_set/asosoft/transcripts/asosoft_0138.txt,ناوئاخنی کتێبەکان لێوانلێوە لە چەمکە دژوازەکان
+asosoft_0107,datasets/training_set/asosoft/audio/asosoft_0107.wav,datasets/training_set/asosoft/transcripts/asosoft_0107.txt,ئەو فڕۆکانەی بە ئاسمانەوەن ترسێنەرن
+asosoft_0008,datasets/training_set/asosoft/audio/asosoft_0008.wav,datasets/training_set/asosoft/transcripts/asosoft_0008.txt,بۆ دیاریکردنی نێوان نێرینە و مێیینە باشە
+asosoft_0226,datasets/training_set/asosoft/audio/asosoft_0226.wav,datasets/training_set/asosoft/transcripts/asosoft_0226.txt,ڕاهێنان و فێرکردنی هاسان و سانا بێ
+asosoft_0063,datasets/training_set/asosoft/audio/asosoft_0063.wav,datasets/training_set/asosoft/transcripts/asosoft_0063.txt,فەیلەسووف بونیادی گفتوگۆ دەنێت
+asosoft_0032,datasets/training_set/asosoft/audio/asosoft_0032.wav,datasets/training_set/asosoft/transcripts/asosoft_0032.txt,ئێستا گوێ ڕاگرن بۆتان دەخوێنمەوە
+asosoft_0045,datasets/training_set/asosoft/audio/asosoft_0045.wav,datasets/training_set/asosoft/transcripts/asosoft_0045.txt,جاروبار حیسابێکی کەم بۆ زێدە دەستدرێژییەک دەکرێت
+asosoft_0160,datasets/training_set/asosoft/audio/asosoft_0160.wav,datasets/training_set/asosoft/transcripts/asosoft_0160.txt,بە شێوەیەکی گشتی گواستنەوەی واتا ئەستەمە
+asosoft_0191,datasets/training_set/asosoft/audio/asosoft_0191.wav,datasets/training_set/asosoft/transcripts/asosoft_0191.txt,ئەم بەشەی سێیەمی حاجی قادر یەک مانگ لە کاتی خۆی دواکەوت
+asosoft_0262,datasets/training_set/asosoft/audio/asosoft_0262.wav,datasets/training_set/asosoft/transcripts/asosoft_0262.txt,خەڵقی ئەو کاتانەش هەروەک ئێستا چاکەی خۆیان مەتڵەب بووە
+asosoft_0239,datasets/training_set/asosoft/audio/asosoft_0239.wav,datasets/training_set/asosoft/transcripts/asosoft_0239.txt,کاتێک پێش دەکەوین کە سەفیری وڵاتەکان سەردانمان کەن
+asosoft_0070,datasets/training_set/asosoft/audio/asosoft_0070.wav,datasets/training_set/asosoft/transcripts/asosoft_0070.txt,بەهرام بارگەوبنەی خۆی پێچایەوە بۆ شەڕگە
+asosoft_0234,datasets/training_set/asosoft/audio/asosoft_0234.wav,datasets/training_set/asosoft/transcripts/asosoft_0234.txt,دوای یۆنانییەکان سەرەی ڕۆمییەکان هات
+asosoft_0291,datasets/training_set/asosoft/audio/asosoft_0291.wav,datasets/training_set/asosoft/transcripts/asosoft_0291.txt,وەرن با شارێکی بێجەمسەر دروست بکەین
+asosoft_0036,datasets/training_set/asosoft/audio/asosoft_0036.wav,datasets/training_set/asosoft/transcripts/asosoft_0036.txt,ئەوە ڕاستییەکی بنجی و ڕەگداکوتاوە
+asosoft_0103,datasets/training_set/asosoft/audio/asosoft_0103.wav,datasets/training_set/asosoft/transcripts/asosoft_0103.txt,هێندێک لە مانەوەم لە ماڵدا وەڕەزم
+asosoft_0127,datasets/training_set/asosoft/audio/asosoft_0127.wav,datasets/training_set/asosoft/transcripts/asosoft_0127.txt,پۆلیسەکان مەعموولەن بە کەلەپچە خپت دەکەن
+asosoft_0011,datasets/training_set/asosoft/audio/asosoft_0011.wav,datasets/training_set/asosoft/transcripts/asosoft_0011.txt,گریمانەی ئەو بووە هۆی سێ تێگەیشتنی جیاواز
+asosoft_0033,datasets/training_set/asosoft/audio/asosoft_0033.wav,datasets/training_set/asosoft/transcripts/asosoft_0033.txt,تکایە زووتر بۆم بنووسن حاڵی مەحموودخان چۆنە
+asosoft_0131,datasets/training_set/asosoft/audio/asosoft_0131.wav,datasets/training_set/asosoft/transcripts/asosoft_0131.txt,باس و مشتومڕی بارمتەکان بزاڤەکەی شەمزاندووە
+asosoft_0144,datasets/training_set/asosoft/audio/asosoft_0144.wav,datasets/training_set/asosoft/transcripts/asosoft_0144.txt,هەژار حەمەعەلی و خەجێ مرۆڤ چەن قفڵ و گسکی شپرزی باغیان تووڕ دا
+asosoft_0042,datasets/training_set/asosoft/audio/asosoft_0042.wav,datasets/training_set/asosoft/transcripts/asosoft_0042.txt,با چەپڵەڕێزانێک بۆ ئەو هەوڵانەی بەرپا کەین
+asosoft_0185,datasets/training_set/asosoft/audio/asosoft_0185.wav,datasets/training_set/asosoft/transcripts/asosoft_0185.txt,من بە کوتنەوەی باسەکان خوێنەر ماندوو دەکەم
+asosoft_0077,datasets/training_set/asosoft/audio/asosoft_0077.wav,datasets/training_set/asosoft/transcripts/asosoft_0077.txt,دەنگی زۆر بەرزتر و بەهێزتر بووە
+asosoft_0101,datasets/training_set/asosoft/audio/asosoft_0101.wav,datasets/training_set/asosoft/transcripts/asosoft_0101.txt,لەو هەموو وردبینییە سەریان سووڕ ما
+asosoft_0062,datasets/training_set/asosoft/audio/asosoft_0062.wav,datasets/training_set/asosoft/transcripts/asosoft_0062.txt,لەم دونیایە بچوون و نەچوون وەکوو یەک وان
+asosoft_0024,datasets/training_set/asosoft/audio/asosoft_0024.wav,datasets/training_set/asosoft/transcripts/asosoft_0024.txt,قازانجەکانی ئەم کارە گونجاوە زۆرن
+asosoft_0074,datasets/training_set/asosoft/audio/asosoft_0074.wav,datasets/training_set/asosoft/transcripts/asosoft_0074.txt,پزیشکەکان هیچ شتێکیان لەم بارەوە نەئەزانی
+asosoft_0072,datasets/training_set/asosoft/audio/asosoft_0072.wav,datasets/training_set/asosoft/transcripts/asosoft_0072.txt,هەژار حەمەعەلی و خەجێ مرۆڤ چەن قفڵ و گسکی شپرزی باغیان تووڕ دا
+asosoft_0247,datasets/training_set/asosoft/audio/asosoft_0247.wav,datasets/training_set/asosoft/transcripts/asosoft_0247.txt,هێندێک لە مانەوەم لە ماڵدا وەڕەزم
+asosoft_0182,datasets/training_set/asosoft/audio/asosoft_0182.wav,datasets/training_set/asosoft/transcripts/asosoft_0182.txt,سروشت وەک ئاوی جۆگەلە وایە
+asosoft_0086,datasets/training_set/asosoft/audio/asosoft_0086.wav,datasets/training_set/asosoft/transcripts/asosoft_0086.txt,تەنیا وڵامێکی ڕازیکەر بەم پرسیارە ساکارە ئەدەینەوە
+asosoft_0196,datasets/training_set/asosoft/audio/asosoft_0196.wav,datasets/training_set/asosoft/transcripts/asosoft_0196.txt,سمایل پاشا شتە تەکووزەکان وێکڕا خڕ دەکاتەوە
+asosoft_0153,datasets/training_set/asosoft/audio/asosoft_0153.wav,datasets/training_set/asosoft/transcripts/asosoft_0153.txt,دەبێ وەرگێڕ لە نێوەڕۆکی دەق تێبگات
+asosoft_0296,datasets/training_set/asosoft/audio/asosoft_0296.wav,datasets/training_set/asosoft/transcripts/asosoft_0296.txt,بۆ دیاریکردنی نێوان نێرینە و مێیینە باشە
+asosoft_0035,datasets/training_set/asosoft/audio/asosoft_0035.wav,datasets/training_set/asosoft/transcripts/asosoft_0035.txt,ئەو فڕۆکانەی بە ئاسمانەوەن ترسێنەرن
+asosoft_0168,datasets/training_set/asosoft/audio/asosoft_0168.wav,datasets/training_set/asosoft/transcripts/asosoft_0168.txt,قازانجەکانی ئەم کارە گونجاوە زۆرن
+asosoft_0085,datasets/training_set/asosoft/audio/asosoft_0085.wav,datasets/training_set/asosoft/transcripts/asosoft_0085.txt,دەکرێ ئەم خاڵە لەنێوان دوو ئاستدا پۆلێن کەین
+asosoft_0001,datasets/training_set/asosoft/audio/asosoft_0001.wav,datasets/training_set/asosoft/transcripts/asosoft_0001.txt,هیچ جۆرە دەرمانێک بۆ ئەو نەخۆشییە نەبوو
+asosoft_0254,datasets/training_set/asosoft/audio/asosoft_0254.wav,datasets/training_set/asosoft/transcripts/asosoft_0254.txt,سروشت وەک ئاوی جۆگەلە وایە
+asosoft_0080,datasets/training_set/asosoft/audio/asosoft_0080.wav,datasets/training_set/asosoft/transcripts/asosoft_0080.txt,بۆ دیاریکردنی نێوان نێرینە و مێیینە باشە
+asosoft_0258,datasets/training_set/asosoft/audio/asosoft_0258.wav,datasets/training_set/asosoft/transcripts/asosoft_0258.txt,با چەپڵەڕێزانێک بۆ ئەو هەوڵانەی بەرپا کەین
+asosoft_0104,datasets/training_set/asosoft/audio/asosoft_0104.wav,datasets/training_set/asosoft/transcripts/asosoft_0104.txt,ئێستا گوێ ڕاگرن بۆتان دەخوێنمەوە
+asosoft_0163,datasets/training_set/asosoft/audio/asosoft_0163.wav,datasets/training_set/asosoft/transcripts/asosoft_0163.txt,لە بەشی شەش و حەوتی سەفەردایە
+asosoft_0266,datasets/training_set/asosoft/audio/asosoft_0266.wav,datasets/training_set/asosoft/transcripts/asosoft_0266.txt,ناکرێت کولتوورێک لە بنەڕەتدا بە خراپ ناوزەد بکرێت
+asosoft_0223,datasets/training_set/asosoft/audio/asosoft_0223.wav,datasets/training_set/asosoft/transcripts/asosoft_0223.txt,ئەو پێویستە بۆ ئەنجامدانی هێندێک کاروبار
+asosoft_0005,datasets/training_set/asosoft/audio/asosoft_0005.wav,datasets/training_set/asosoft/transcripts/asosoft_0005.txt,دەنگی زۆر بەرزتر و بەهێزتر بووە
+asosoft_0038,datasets/training_set/asosoft/audio/asosoft_0038.wav,datasets/training_set/asosoft/transcripts/asosoft_0038.txt,سروشت وەک ئاوی جۆگەلە وایە
+asosoft_0233,datasets/training_set/asosoft/audio/asosoft_0233.wav,datasets/training_set/asosoft/transcripts/asosoft_0233.txt,هەڵبەت ئەوە تەنیا بەسەرهاتی زیندەخەوێک نییە
+asosoft_0300,datasets/training_set/asosoft/audio/asosoft_0300.wav,datasets/training_set/asosoft/transcripts/asosoft_0300.txt,لە ڕاستیدا وانەی ئەو بریتییە لە گەلێک بواری زانستی
+asosoft_0075,datasets/training_set/asosoft/audio/asosoft_0075.wav,datasets/training_set/asosoft/transcripts/asosoft_0075.txt,وەرن با شارێکی بێجەمسەر دروست بکەین
+asosoft_0137,datasets/training_set/asosoft/audio/asosoft_0137.wav,datasets/training_set/asosoft/transcripts/asosoft_0137.txt,تەوێڵی گرژ و سێبەری قورسی شەکەتی کردم
+asosoft_0214,datasets/training_set/asosoft/audio/asosoft_0214.wav,datasets/training_set/asosoft/transcripts/asosoft_0214.txt,بەهرام بارگەوبنەی خۆی پێچایەوە بۆ شەڕگە
+asosoft_0270,datasets/training_set/asosoft/audio/asosoft_0270.wav,datasets/training_set/asosoft/transcripts/asosoft_0270.txt,لەم دەقەدا ئێمە عیبارەتی تەمومژاوی دەبینینەوە
+asosoft_0195,datasets/training_set/asosoft/audio/asosoft_0195.wav,datasets/training_set/asosoft/transcripts/asosoft_0195.txt,ڕەوایی و جێی متمانەبوونی کەلوپەلەکان هەڵسەنگێندراون
+asosoft_0282,datasets/training_set/asosoft/audio/asosoft_0282.wav,datasets/training_set/asosoft/transcripts/asosoft_0282.txt,ناوئاخنی کتێبەکان لێوانلێوە لە چەمکە دژوازەکان
+asosoft_0286,datasets/training_set/asosoft/audio/asosoft_0286.wav,datasets/training_set/asosoft/transcripts/asosoft_0286.txt,بەهرام بارگەوبنەی خۆی پێچایەوە بۆ شەڕگە
+asosoft_0041,datasets/training_set/asosoft/audio/asosoft_0041.wav,datasets/training_set/asosoft/transcripts/asosoft_0041.txt,من بە کوتنەوەی باسەکان خوێنەر ماندوو دەکەم
+asosoft_0235,datasets/training_set/asosoft/audio/asosoft_0235.wav,datasets/training_set/asosoft/transcripts/asosoft_0235.txt,لە بەشی شەش و حەوتی سەفەردایە
+asosoft_0025,datasets/training_set/asosoft/audio/asosoft_0025.wav,datasets/training_set/asosoft/transcripts/asosoft_0025.txt,ڕەنگە بە ئاسانی ئەم دیاردەیە پێناسە بکەین
+asosoft_0106,datasets/training_set/asosoft/audio/asosoft_0106.wav,datasets/training_set/asosoft/transcripts/asosoft_0106.txt,کە زەنگی لێدا مەشقەکەی لەبۆ پۆل دانا
+asosoft_0211,datasets/training_set/asosoft/audio/asosoft_0211.wav,datasets/training_set/asosoft/transcripts/asosoft_0211.txt,تاسەی دۆعاکردن و نزا و پاڕانەوەی بەرەبەیانان دەکەم
+asosoft_0111,datasets/training_set/asosoft/audio/asosoft_0111.wav,datasets/training_set/asosoft/transcripts/asosoft_0111.txt,ماچی ئافەرینی لە ناوچەوانی کرد
+asosoft_0117,datasets/training_set/asosoft/audio/asosoft_0117.wav,datasets/training_set/asosoft/transcripts/asosoft_0117.txt,جاروبار حیسابێکی کەم بۆ زێدە دەستدرێژییەک دەکرێت
+asosoft_0209,datasets/training_set/asosoft/audio/asosoft_0209.wav,datasets/training_set/asosoft/transcripts/asosoft_0209.txt,تەوێڵی گرژ و سێبەری قورسی شەکەتی کردم
+asosoft_0002,datasets/training_set/asosoft/audio/asosoft_0002.wav,datasets/training_set/asosoft/transcripts/asosoft_0002.txt,پزیشکەکان هیچ شتێکیان لەم بارەوە نەئەزانی
+asosoft_0094,datasets/training_set/asosoft/audio/asosoft_0094.wav,datasets/training_set/asosoft/transcripts/asosoft_0094.txt,ژیان و دەسەڵاتی ئابووری پێکەوە گرێدراون
+asosoft_0252,datasets/training_set/asosoft/audio/asosoft_0252.wav,datasets/training_set/asosoft/transcripts/asosoft_0252.txt,ئەوە ڕاستییەکی بنجی و ڕەگداکوتاوە
+asosoft_0208,datasets/training_set/asosoft/audio/asosoft_0208.wav,datasets/training_set/asosoft/transcripts/asosoft_0208.txt,شۆڕشی ڕاستەقینە ڕووئەدات
+asosoft_0265,datasets/training_set/asosoft/audio/asosoft_0265.wav,datasets/training_set/asosoft/transcripts/asosoft_0265.txt,پێشتریش واتای زۆر وشەم ڕوون کردبۆوە
+asosoft_0166,datasets/training_set/asosoft/audio/asosoft_0166.wav,datasets/training_set/asosoft/transcripts/asosoft_0166.txt,ژیان و دەسەڵاتی ئابووری پێکەوە گرێدراون
+asosoft_0066,datasets/training_set/asosoft/audio/asosoft_0066.wav,datasets/training_set/asosoft/transcripts/asosoft_0066.txt,ناوئاخنی کتێبەکان لێوانلێوە لە چەمکە دژوازەکان
+asosoft_0250,datasets/training_set/asosoft/audio/asosoft_0250.wav,datasets/training_set/asosoft/transcripts/asosoft_0250.txt,کە زەنگی لێدا مەشقەکەی لەبۆ پۆل دانا
+asosoft_0157,datasets/training_set/asosoft/audio/asosoft_0157.wav,datasets/training_set/asosoft/transcripts/asosoft_0157.txt,دەکرێ ئەم خاڵە لەنێوان دوو ئاستدا پۆلێن کەین
+asosoft_0027,datasets/training_set/asosoft/audio/asosoft_0027.wav,datasets/training_set/asosoft/transcripts/asosoft_0027.txt,بڕێک جار ڕووبەڕووبوونەوەکان پێشبینی ناکرێن
+asosoft_0292,datasets/training_set/asosoft/audio/asosoft_0292.wav,datasets/training_set/asosoft/transcripts/asosoft_0292.txt,ناکرێت بە وردی بودجەی هالیوۆد دیاری کرێ
+asosoft_0043,datasets/training_set/asosoft/audio/asosoft_0043.wav,datasets/training_set/asosoft/transcripts/asosoft_0043.txt,بەپێی ئەو ناسینەوەیە ڕقیان لێ هەڵدەگرین
+asosoft_0059,datasets/training_set/asosoft/audio/asosoft_0059.wav,datasets/training_set/asosoft/transcripts/asosoft_0059.txt,باس و مشتومڕی بارمتەکان بزاڤەکەی شەمزاندووە
+asosoft_0026,datasets/training_set/asosoft/audio/asosoft_0026.wav,datasets/training_set/asosoft/transcripts/asosoft_0026.txt,بەها و متمانەی کۆمەڵایەتی دوو هۆکاری گرینگن
+asosoft_0089,datasets/training_set/asosoft/audio/asosoft_0089.wav,datasets/training_set/asosoft/transcripts/asosoft_0089.txt,هەڵبەت ئەوە تەنیا بەسەرهاتی زیندەخەوێک نییە
+asosoft_0130,datasets/training_set/asosoft/audio/asosoft_0130.wav,datasets/training_set/asosoft/transcripts/asosoft_0130.txt,ئەوە شوێنی مشتومڕە و گوزارەکەی ڕۆڵێکیش دەبینێت
+asosoft_0012,datasets/training_set/asosoft/audio/asosoft_0012.wav,datasets/training_set/asosoft/transcripts/asosoft_0012.txt,لە ڕاستیدا وانەی ئەو بریتییە لە گەلێک بواری زانستی
+asosoft_0278,datasets/training_set/asosoft/audio/asosoft_0278.wav,datasets/training_set/asosoft/transcripts/asosoft_0278.txt,لەم دونیایە بچوون و نەچوون وەکوو یەک وان
+asosoft_0178,datasets/training_set/asosoft/audio/asosoft_0178.wav,datasets/training_set/asosoft/transcripts/asosoft_0178.txt,کە زەنگی لێدا مەشقەکەی لەبۆ پۆل دانا
+asosoft_0069,datasets/training_set/asosoft/audio/asosoft_0069.wav,datasets/training_set/asosoft/transcripts/asosoft_0069.txt,تا لەشت ساغە قەدری بزانە
+asosoft_0093,datasets/training_set/asosoft/audio/asosoft_0093.wav,datasets/training_set/asosoft/transcripts/asosoft_0093.txt,لەگەڵ ئەمانەشدا تەنانەت ئەویش نەهات
+asosoft_0004,datasets/training_set/asosoft/audio/asosoft_0004.wav,datasets/training_set/asosoft/transcripts/asosoft_0004.txt,ناکرێت بە وردی بودجەی هالیوۆد دیاری کرێ
+asosoft_0110,datasets/training_set/asosoft/audio/asosoft_0110.wav,datasets/training_set/asosoft/transcripts/asosoft_0110.txt,سروشت وەک ئاوی جۆگەلە وایە
+asosoft_0055,datasets/training_set/asosoft/audio/asosoft_0055.wav,datasets/training_set/asosoft/transcripts/asosoft_0055.txt,پۆلیسەکان مەعموولەن بە کەلەپچە خپت دەکەن
+asosoft_0230,datasets/training_set/asosoft/audio/asosoft_0230.wav,datasets/training_set/asosoft/transcripts/asosoft_0230.txt,تەنیا وڵامێکی ڕازیکەر بەم پرسیارە ساکارە ئەدەینەوە
+asosoft_0146,datasets/training_set/asosoft/audio/asosoft_0146.wav,datasets/training_set/asosoft/transcripts/asosoft_0146.txt,پزیشکەکان هیچ شتێکیان لەم بارەوە نەئەزانی
+asosoft_0056,datasets/training_set/asosoft/audio/asosoft_0056.wav,datasets/training_set/asosoft/transcripts/asosoft_0056.txt,دواکەوتنێکی پڕنەهامەتی و چەرمەسەریی پێوە بوو
+asosoft_0052,datasets/training_set/asosoft/audio/asosoft_0052.wav,datasets/training_set/asosoft/transcripts/asosoft_0052.txt,سمایل پاشا شتە تەکووزەکان وێکڕا خڕ دەکاتەوە
+asosoft_0092,datasets/training_set/asosoft/audio/asosoft_0092.wav,datasets/training_set/asosoft/transcripts/asosoft_0092.txt,ڕابردوو وای کرد داهاتووشم نەوێت
+asosoft_0189,datasets/training_set/asosoft/audio/asosoft_0189.wav,datasets/training_set/asosoft/transcripts/asosoft_0189.txt,جاروبار حیسابێکی کەم بۆ زێدە دەستدرێژییەک دەکرێت
+asosoft_0029,datasets/training_set/asosoft/audio/asosoft_0029.wav,datasets/training_set/asosoft/transcripts/asosoft_0029.txt,لەو هەموو وردبینییە سەریان سووڕ ما
+asosoft_0215,datasets/training_set/asosoft/audio/asosoft_0215.wav,datasets/training_set/asosoft/transcripts/asosoft_0215.txt,غەفوور کەمعورزە و ڕێواس جلپێهات حەڤدە قووچی برژیاگیش ئەخۆن
+asosoft_0204,datasets/training_set/asosoft/audio/asosoft_0204.wav,datasets/training_set/asosoft/transcripts/asosoft_0204.txt,گوڵی بۆنخۆش بژاکێت بۆنی دەڕەوێت
+asosoft_0284,datasets/training_set/asosoft/audio/asosoft_0284.wav,datasets/training_set/asosoft/transcripts/asosoft_0284.txt,ئەگەر تاژی زۆری تێبەردەی لە ڕاو دەکەوێت
+asosoft_0244,datasets/training_set/asosoft/audio/asosoft_0244.wav,datasets/training_set/asosoft/transcripts/asosoft_0244.txt,دەفتەرەکانی وەرگرتن و ماڵاواییان کرد
+asosoft_0283,datasets/training_set/asosoft/audio/asosoft_0283.wav,datasets/training_set/asosoft/transcripts/asosoft_0283.txt,تاسەی دۆعاکردن و نزا و پاڕانەوەی بەرەبەیانان دەکەم
+asosoft_0145,datasets/training_set/asosoft/audio/asosoft_0145.wav,datasets/training_set/asosoft/transcripts/asosoft_0145.txt,هیچ جۆرە دەرمانێک بۆ ئەو نەخۆشییە نەبوو
+asosoft_0240,datasets/training_set/asosoft/audio/asosoft_0240.wav,datasets/training_set/asosoft/transcripts/asosoft_0240.txt,قازانجەکانی ئەم کارە گونجاوە زۆرن
+asosoft_0142,datasets/training_set/asosoft/audio/asosoft_0142.wav,datasets/training_set/asosoft/transcripts/asosoft_0142.txt,بەهرام بارگەوبنەی خۆی پێچایەوە بۆ شەڕگە
+asosoft_0260,datasets/training_set/asosoft/audio/asosoft_0260.wav,datasets/training_set/asosoft/transcripts/asosoft_0260.txt,ئەوانەن کە پێیان دەگوترێ دەست و پێ سپی
+asosoft_0174,datasets/training_set/asosoft/audio/asosoft_0174.wav,datasets/training_set/asosoft/transcripts/asosoft_0174.txt,هەوەڵجار خێراخێرا پاشان هێواشتر هەڵی ئەدانەوە
+asosoft_0180,datasets/training_set/asosoft/audio/asosoft_0180.wav,datasets/training_set/asosoft/transcripts/asosoft_0180.txt,ئەوە ڕاستییەکی بنجی و ڕەگداکوتاوە
+asosoft_0083,datasets/training_set/asosoft/audio/asosoft_0083.wav,datasets/training_set/asosoft/transcripts/asosoft_0083.txt,گریمانەی ئەو بووە هۆی سێ تێگەیشتنی جیاواز
+asosoft_0061,datasets/training_set/asosoft/audio/asosoft_0061.wav,datasets/training_set/asosoft/transcripts/asosoft_0061.txt,وێناگەلێکی یەکجار سەقامگیر بەرهەم هێنراون
+asosoft_0197,datasets/training_set/asosoft/audio/asosoft_0197.wav,datasets/training_set/asosoft/transcripts/asosoft_0197.txt,سەرجەم ئەم ئەرگۆمێنتە پابەندە بە پێناسەی کەسەوە
+asosoft_0164,datasets/training_set/asosoft/audio/asosoft_0164.wav,datasets/training_set/asosoft/transcripts/asosoft_0164.txt,ڕابردوو وای کرد داهاتووشم نەوێت
+asosoft_0034,datasets/training_set/asosoft/audio/asosoft_0034.wav,datasets/training_set/asosoft/transcripts/asosoft_0034.txt,کە زەنگی لێدا مەشقەکەی لەبۆ پۆل دانا
+asosoft_0097,datasets/training_set/asosoft/audio/asosoft_0097.wav,datasets/training_set/asosoft/transcripts/asosoft_0097.txt,ڕەنگە بە ئاسانی ئەم دیاردەیە پێناسە بکەین
+asosoft_0114,datasets/training_set/asosoft/audio/asosoft_0114.wav,datasets/training_set/asosoft/transcripts/asosoft_0114.txt,با چەپڵەڕێزانێک بۆ ئەو هەوڵانەی بەرپا کەین
+asosoft_0194,datasets/training_set/asosoft/audio/asosoft_0194.wav,datasets/training_set/asosoft/transcripts/asosoft_0194.txt,ناکرێت کولتوورێک لە بنەڕەتدا بە خراپ ناوزەد بکرێت
+asosoft_0099,datasets/training_set/asosoft/audio/asosoft_0099.wav,datasets/training_set/asosoft/transcripts/asosoft_0099.txt,بڕێک جار ڕووبەڕووبوونەوەکان پێشبینی ناکرێن
+asosoft_0159,datasets/training_set/asosoft/audio/asosoft_0159.wav,datasets/training_set/asosoft/transcripts/asosoft_0159.txt,وەرگێڕانی مرۆڤ لە وەرگێڕانی ئامراز ڕێکوپێکترە
+asosoft_0046,datasets/training_set/asosoft/audio/asosoft_0046.wav,datasets/training_set/asosoft/transcripts/asosoft_0046.txt,خەڵقی ئەو کاتانەش هەروەک ئێستا چاکەی خۆیان مەتڵەب بووە
+asosoft_0172,datasets/training_set/asosoft/audio/asosoft_0172.wav,datasets/training_set/asosoft/transcripts/asosoft_0172.txt,دەفتەرەکانی وەرگرتن و ماڵاواییان کرد
+asosoft_0181,datasets/training_set/asosoft/audio/asosoft_0181.wav,datasets/training_set/asosoft/transcripts/asosoft_0181.txt,نامەیەک گەیشت و بە خوێندنەوەی دڵشاد بووم
+asosoft_0251,datasets/training_set/asosoft/audio/asosoft_0251.wav,datasets/training_set/asosoft/transcripts/asosoft_0251.txt,ئەو فڕۆکانەی بە ئاسمانەوەن ترسێنەرن
+asosoft_0271,datasets/training_set/asosoft/audio/asosoft_0271.wav,datasets/training_set/asosoft/transcripts/asosoft_0271.txt,پۆلیسەکان مەعموولەن بە کەلەپچە خپت دەکەن
+asosoft_0177,datasets/training_set/asosoft/audio/asosoft_0177.wav,datasets/training_set/asosoft/transcripts/asosoft_0177.txt,تکایە زووتر بۆم بنووسن حاڵی مەحموودخان چۆنە
+asosoft_0071,datasets/training_set/asosoft/audio/asosoft_0071.wav,datasets/training_set/asosoft/transcripts/asosoft_0071.txt,غەفوور کەمعورزە و ڕێواس جلپێهات حەڤدە قووچی برژیاگیش ئەخۆن
+asosoft_0253,datasets/training_set/asosoft/audio/asosoft_0253.wav,datasets/training_set/asosoft/transcripts/asosoft_0253.txt,نامەیەک گەیشت و بە خوێندنەوەی دڵشاد بووم
+asosoft_0054,datasets/training_set/asosoft/audio/asosoft_0054.wav,datasets/training_set/asosoft/transcripts/asosoft_0054.txt,لەم دەقەدا ئێمە عیبارەتی تەمومژاوی دەبینینەوە
+asosoft_0079,datasets/training_set/asosoft/audio/asosoft_0079.wav,datasets/training_set/asosoft/transcripts/asosoft_0079.txt,ئەو پێویستە بۆ ئەنجامدانی هێندێک کاروبار
+asosoft_0220,datasets/training_set/asosoft/audio/asosoft_0220.wav,datasets/training_set/asosoft/transcripts/asosoft_0220.txt,ناکرێت بە وردی بودجەی هالیوۆد دیاری کرێ
+asosoft_0241,datasets/training_set/asosoft/audio/asosoft_0241.wav,datasets/training_set/asosoft/transcripts/asosoft_0241.txt,ڕەنگە بە ئاسانی ئەم دیاردەیە پێناسە بکەین
+asosoft_0090,datasets/training_set/asosoft/audio/asosoft_0090.wav,datasets/training_set/asosoft/transcripts/asosoft_0090.txt,دوای یۆنانییەکان سەرەی ڕۆمییەکان هات
+asosoft_0147,datasets/training_set/asosoft/audio/asosoft_0147.wav,datasets/training_set/asosoft/transcripts/asosoft_0147.txt,وەرن با شارێکی بێجەمسەر دروست بکەین
+asosoft_0186,datasets/training_set/asosoft/audio/asosoft_0186.wav,datasets/training_set/asosoft/transcripts/asosoft_0186.txt,با چەپڵەڕێزانێک بۆ ئەو هەوڵانەی بەرپا کەین
+asosoft_0167,datasets/training_set/asosoft/audio/asosoft_0167.wav,datasets/training_set/asosoft/transcripts/asosoft_0167.txt,کاتێک پێش دەکەوین کە سەفیری وڵاتەکان سەردانمان کەن

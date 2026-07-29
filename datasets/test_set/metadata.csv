@@ -1,0 +1,13 @@
+clip_id,source_url,dialect,speaker_gender,speaker_age_group,speech_speed,has_music,has_noise,phone_quality,overlapping_speakers,code_switching,audio_path,transcript_path,duration_sec
+clip_01,https://huggingface.co/datasets/google/fleurs,sulaymaniyah,female,adult,normal,no,no,no,no,no,datasets/test_set/audio/clip_01.wav,datasets/test_set/transcripts/clip_01.txt,9.78
+clip_02,https://huggingface.co/datasets/google/fleurs,hawler,male,adult,fast,no,yes,no,no,no,datasets/test_set/audio/clip_02.wav,datasets/test_set/transcripts/clip_02.txt,12.3
+clip_03,https://huggingface.co/datasets/google/fleurs,kirkuk,female,adult,slow,no,no,no,no,no,datasets/test_set/audio/clip_03.wav,datasets/test_set/transcripts/clip_03.txt,16.92
+clip_04,https://huggingface.co/datasets/google/fleurs,garmian,male,adult,normal,no,yes,no,no,no,datasets/test_set/audio/clip_04.wav,datasets/test_set/transcripts/clip_04.txt,12.0
+clip_05,https://huggingface.co/datasets/google/fleurs,sulaymaniyah,female,adult,fast,no,no,no,no,no,datasets/test_set/audio/clip_05.wav,datasets/test_set/transcripts/clip_05.txt,13.26
+clip_06,https://huggingface.co/datasets/google/fleurs,hawler,male,adult,slow,no,yes,no,no,no,datasets/test_set/audio/clip_06.wav,datasets/test_set/transcripts/clip_06.txt,9.06
+clip_07,https://huggingface.co/datasets/google/fleurs,kirkuk,female,adult,normal,no,no,no,no,no,datasets/test_set/audio/clip_07.wav,datasets/test_set/transcripts/clip_07.txt,16.74
+clip_08,https://huggingface.co/datasets/google/fleurs,garmian,male,adult,fast,no,yes,no,no,no,datasets/test_set/audio/clip_08.wav,datasets/test_set/transcripts/clip_08.txt,8.22
+clip_09,https://huggingface.co/datasets/google/fleurs,sulaymaniyah,female,adult,slow,no,no,no,no,no,datasets/test_set/audio/clip_09.wav,datasets/test_set/transcripts/clip_09.txt,14.16
+clip_10,https://huggingface.co/datasets/google/fleurs,hawler,male,adult,normal,no,yes,no,no,no,datasets/test_set/audio/clip_10.wav,datasets/test_set/transcripts/clip_10.txt,8.82
+clip_11,https://huggingface.co/datasets/google/fleurs,kirkuk,female,adult,fast,no,no,no,no,no,datasets/test_set/audio/clip_11.wav,datasets/test_set/transcripts/clip_11.txt,19.08
+clip_12,https://huggingface.co/datasets/google/fleurs,garmian,male,adult,slow,no,yes,no,no,no,datasets/test_set/audio/clip_12.wav,datasets/test_set/transcripts/clip_12.txt,10.98

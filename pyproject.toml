@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sorani-stt-eval"
+version = "0.1.0"
+description = "Sorani Kurdish Speech-to-Text Evaluation & Fine-Tuning Suite"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Kak Faridun" }
+]
+
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn[standard]>=0.27.0",
+    "python-multipart>=0.0.9",
+    "pydantic-settings>=2.1.0",
+    "torch",
+    "torchaudio",
+    "transformers>=4.38.0",
+    "datasets>=2.17.0",
+    "accelerate>=0.27.0",
+    "jiwer>=3.0.3",
+    "librosa>=0.10.1",
+    "soundfile>=0.12.1",
+    "pydub>=0.25.1",
+    "ffmpeg-python>=0.2.0",
+    "noisereduce>=3.0.0",
+    "pandas>=2.2.0",
+    "loguru>=0.7.2"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "httpx>=0.27.0",
+    "ruff>=0.2.0"
+]
+peft = ["peft>=0.8.0"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+ignore = ["B008", "RUF012", "BLE001"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+asyncio_mode = "auto"
