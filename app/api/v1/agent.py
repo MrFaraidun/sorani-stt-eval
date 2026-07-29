@@ -209,6 +209,52 @@ def _run_interpreter(text: str) -> list[dict]:
     return results
 
 
+class KeyUpdatePayload(BaseModel):
+    nvidia_api_key: str | None = None
+    gemini_api_key: str | None = None
+
+
+@router.post("/agent/keys", summary="Set API keys dynamically from the Web UI", tags=["Agent"])
+async def set_api_keys(payload: KeyUpdatePayload):
+    """Set NVIDIA or Gemini API keys dynamically from the web UI."""
+    global _interpreter
+    _interpreter = None  # Reset interpreter to reconfigure with new key
+
+    if payload.nvidia_api_key:
+        os.environ["NVIDIA_API_KEY"] = payload.nvidia_api_key
+    if payload.gemini_api_key:
+        os.environ["GEMINI_API_KEY"] = payload.gemini_api_key
+
+    # Save to .env if it exists
+    env_path = ".env"
+    if os.path.exists(env_path):
+        with open(env_path, "r") as f:
+            lines = f.readlines()
+        
+        new_lines = []
+        nv_found = False
+        gem_found = False
+        for line in lines:
+            if line.startswith("NVIDIA_API_KEY=") and payload.nvidia_api_key:
+                new_lines.append(f'NVIDIA_API_KEY="{payload.nvidia_api_key}"\n')
+                nv_found = True
+            elif line.startswith("GEMINI_API_KEY=") and payload.gemini_api_key:
+                new_lines.append(f'GEMINI_API_KEY="{payload.gemini_api_key}"\n')
+                gem_found = True
+            else:
+                new_lines.append(line)
+        
+        if payload.nvidia_api_key and not nv_found:
+            new_lines.append(f'NVIDIA_API_KEY="{payload.nvidia_api_key}"\n')
+        if payload.gemini_api_key and not gem_found:
+            new_lines.append(f'GEMINI_API_KEY="{payload.gemini_api_key}"\n')
+
+        with open(env_path, "w") as f:
+            f.writelines(new_lines)
+
+    return {"status": "success", "message": "API keys updated successfully!"}
+
+
 @router.post(
     "/agent",
     summary="Kurdish Voice Agent — Speak to Control Your Computer",

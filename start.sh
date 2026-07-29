@@ -17,6 +17,12 @@ cleanup_port() {
 
 echo "=== 🚀 Launching GreenSorani AI Suite ==="
 
+# 0. Auto-create .env if missing
+if [ ! -f .env ]; then
+  echo "📋 .env file not found. Auto-creating .env from .env.example..."
+  cp .env.example .env
+fi
+
 # 1. Clear any stale processes holding ports 8000, 5173, 5174
 cleanup_port 8000
 cleanup_port 5173
