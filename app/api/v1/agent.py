@@ -22,6 +22,7 @@ import torch
 from dotenv import load_dotenv
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 from fastapi.concurrency import run_in_threadpool
+from pydantic import BaseModel
 
 from app.schemas.transcribe import TranscriptionResult
 from app.services.audio_pipeline import audio_pipeline

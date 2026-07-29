@@ -284,14 +284,6 @@ export default function AgentWidget() {
           </div>
         </div>
         <div className="flex items-center gap-2">
-          {/* API Key Modal Toggle */}
-          <button
-            onClick={() => setShowKeyModal(!showKeyModal)}
-            className="w-8 h-8 rounded-lg bg-slate-800/80 border border-slate-700 flex items-center justify-center text-slate-400 hover:text-emerald-400 hover:border-emerald-500/40 transition-all cursor-pointer"
-            title="Configure API Keys"
-          >
-            <Key className="w-4 h-4 text-emerald-400" />
-          </button>
           {/* Input mode toggle */}
           <button
             onClick={() => setInputMode(inputMode === 'mic' ? 'keyboard' : 'mic')}
@@ -309,48 +301,16 @@ export default function AgentWidget() {
         </div>
       </div>
 
-      {/* API Key Settings Drawer Modal */}
-      {showKeyModal && (
-        <div className="p-4 bg-emerald-950/90 border-b border-emerald-500/30 space-y-3 animate-fadeIn">
-          <div className="flex items-center justify-between">
-            <h4 className="text-xs font-bold text-emerald-300 flex items-center gap-2">
-              <Key className="w-3.5 h-3.5" /> Configure API Key
-            </h4>
-            <span className="text-[10px] text-emerald-400/60 font-mono">{keySaveStatus}</span>
-          </div>
-          <input
-            type="password"
-            placeholder="Paste NVIDIA API Key (nvapi-...)"
-            value={nvKeyInput}
-            onChange={(e) => setNvKeyInput(e.target.value)}
-            className="w-full px-3 py-2 rounded-xl bg-black/60 border border-emerald-500/30 text-xs text-emerald-200 placeholder-slate-500 focus:outline-none focus:border-emerald-400"
-          />
-          <button
-            onClick={handleSaveKeys}
-            className="w-full py-2 bg-emerald-500 hover:bg-emerald-400 text-black font-bold text-xs rounded-xl shadow-lg shadow-emerald-500/20 transition-all cursor-pointer"
-          >
-            Save API Key
-          </button>
-        </div>
-      )}
-
       {/* Chat Area */}
       <div className="flex-1 overflow-y-auto px-4 py-3 space-y-3 min-h-[280px] max-h-[380px]">
         {conversation.length === 0 && (
-          <div className="flex flex-col items-center justify-center h-full text-center py-6 space-y-3">
+          <div className="flex flex-col items-center justify-center h-full text-center py-8 space-y-3 opacity-60">
             <Bot className="w-10 h-10 text-emerald-400/50" />
             <p className="text-xs text-slate-300 font-medium">
               {inputMode === 'mic'
                 ? 'دەستبنێ بۆ قسەکردن بە کوردی...'
                 : 'فرمانێک بنووسە بە کوردی...'}
             </p>
-            <button
-              onClick={() => setShowKeyModal(true)}
-              className="px-3 py-1.5 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-400/30 text-emerald-300 text-xs font-mono flex items-center gap-1.5 cursor-pointer transition-all hover:scale-105"
-            >
-              <Key className="w-3.5 h-3.5 text-emerald-400" />
-              <span>کلیلەی API تێبکە (Add API Key)</span>
-            </button>
             <p className="text-[10px] text-slate-500 font-mono">
               "کرۆم بکەرەوە" • "کرۆم دابخە" • "نۆتباد بکەرەوە"
             </p>

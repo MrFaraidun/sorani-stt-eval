@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ArrowRight, ShieldCheck, TrendingUp, Globe, Sparkles, Mic, Zap } from 'lucide-react';
+import { ArrowRight, ShieldCheck, TrendingUp, Globe, Sparkles, Mic, Zap, Key, X } from 'lucide-react';
 import { translations } from './i18n';
 import Studio from './components/Studio';
 import Benchmark from './components/Benchmark';
@@ -12,12 +12,43 @@ export default function App() {
   const [lang, setLang] = useState('ckb'); // Default Sorani Kurdish
   const [activeModule, setActiveModule] = useState('studio');
 
+  const [showKeyModal, setShowKeyModal] = useState(false);
+  const [nvKeyInput, setNvKeyInput] = useState('');
+  const [gemKeyInput, setGemKeyInput] = useState('');
+  const [keySaveStatus, setKeySaveStatus] = useState('');
+
   const t = translations[lang] || translations.ckb;
 
   useEffect(() => {
     document.documentElement.dir = t.dir;
     document.documentElement.lang = lang;
   }, [lang, t.dir]);
+
+  const handleSaveKeys = async () => {
+    if (!nvKeyInput.trim() && !gemKeyInput.trim()) return;
+    setKeySaveStatus('Saving...');
+    try {
+      const res = await fetch('http://localhost:8000/api/v1/agent/keys', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          nvidia_api_key: nvKeyInput.trim() || undefined,
+          gemini_api_key: gemKeyInput.trim() || undefined,
+        }),
+      });
+      if (res.ok) {
+        setKeySaveStatus('✅ Keys Saved!');
+        setTimeout(() => {
+          setShowKeyModal(false);
+          setKeySaveStatus('');
+        }, 1200);
+      } else {
+        setKeySaveStatus('❌ Error saving keys.');
+      }
+    } catch (err) {
+      setKeySaveStatus('❌ Network error.');
+    }
+  };
 
   return (
     <div className="min-h-screen bg-[#050806] text-slate-100 font-sans relative overflow-x-hidden selection:bg-emerald-400 selection:text-slate-950">
@@ -74,8 +105,17 @@ export default function App() {
           </button>
         </nav>
 
-        {/* Right Language Switcher & CTA Button */}
+        {/* Right Language Switcher & API Keys Settings Button */}
         <div className="flex items-center gap-4">
+          {/* API Keys Configuration Button */}
+          <button
+            onClick={() => setShowKeyModal(true)}
+            className="flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-xs font-bold transition-all shadow-md shadow-emerald-500/10 cursor-pointer hover:scale-105"
+          >
+            <Key className="w-4 h-4 text-emerald-400 animate-pulse" />
+            <span>API Keys</span>
+          </button>
+
           <div className="flex items-center gap-1 bg-slate-900/90 p-1.5 rounded-full border border-slate-800 shadow-inner">
             <Globe className="w-4 h-4 text-emerald-400 ml-2 mr-1" />
             {[
@@ -103,6 +143,64 @@ export default function App() {
           </button>
         </div>
       </header>
+
+      {/* Global API Key Modal Dialog */}
+      {showKeyModal && (
+        <div className="fixed inset-0 z-[99999] flex items-center justify-center p-4 bg-black/80 backdrop-blur-md animate-fadeIn">
+          <div className="w-full max-w-md bg-slate-950 border border-emerald-500/40 rounded-3xl p-6 shadow-2xl space-y-5 relative">
+            <button
+              onClick={() => setShowKeyModal(false)}
+              className="absolute top-4 right-4 text-slate-400 hover:text-white cursor-pointer"
+            >
+              <X className="w-5 h-5" />
+            </button>
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 rounded-2xl bg-emerald-500/20 border border-emerald-400/50 flex items-center justify-center text-emerald-400">
+                <Key className="w-5 h-5" />
+              </div>
+              <div>
+                <h3 className="text-base font-bold text-white">API Keys Configuration</h3>
+                <p className="text-xs text-slate-400">Configure your free NVIDIA NIM & Gemini keys</p>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <div>
+                <label className="text-xs font-bold text-emerald-300 block mb-1.5">NVIDIA API Key (Voice Commander)</label>
+                <input
+                  type="password"
+                  placeholder="nvapi-..."
+                  value={nvKeyInput}
+                  onChange={(e) => setNvKeyInput(e.target.value)}
+                  className="w-full px-4 py-2.5 rounded-xl bg-black/60 border border-emerald-500/30 text-xs text-emerald-100 placeholder-slate-500 focus:outline-none focus:border-emerald-400 font-mono"
+                />
+              </div>
+
+              <div>
+                <label className="text-xs font-bold text-emerald-300 block mb-1.5">Gemini API Key (Hybrid ASR)</label>
+                <input
+                  type="password"
+                  placeholder="AIzaSy..."
+                  value={gemKeyInput}
+                  onChange={(e) => setGemKeyInput(e.target.value)}
+                  className="w-full px-4 py-2.5 rounded-xl bg-black/60 border border-emerald-500/30 text-xs text-emerald-100 placeholder-slate-500 focus:outline-none focus:border-emerald-400 font-mono"
+                />
+              </div>
+            </div>
+
+            {keySaveStatus && (
+              <p className="text-xs font-mono text-center text-emerald-400 animate-pulse">{keySaveStatus}</p>
+            )}
+
+            <button
+              onClick={handleSaveKeys}
+              className="w-full py-3 rounded-2xl bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-extrabold text-sm shadow-lg shadow-emerald-500/30 transition-all cursor-pointer"
+            >
+              Save API Keys
+            </button>
+          </div>
+        </div>
+      )}
 
       {/* Hero Section */}
       <section className="relative z-10 max-w-7xl mx-auto px-6 pt-6 pb-16 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
