@@ -26,7 +26,7 @@ export default function App() {
 
   const handleSaveKeys = async () => {
     if (!nvKeyInput.trim() && !gemKeyInput.trim()) return;
-    setKeySaveStatus('Saving...');
+    setKeySaveStatus(t.apiKeys.saving);
     try {
       const res = await fetch('http://localhost:8000/api/v1/agent/keys', {
         method: 'POST',
@@ -37,16 +37,16 @@ export default function App() {
         }),
       });
       if (res.ok) {
-        setKeySaveStatus('✅ Keys Saved!');
+        setKeySaveStatus(t.apiKeys.saved);
         setTimeout(() => {
           setShowKeyModal(false);
           setKeySaveStatus('');
         }, 1200);
       } else {
-        setKeySaveStatus('❌ Error saving keys.');
+        setKeySaveStatus(t.apiKeys.error);
       }
     } catch (err) {
-      setKeySaveStatus('❌ Network error.');
+      setKeySaveStatus(t.apiKeys.netError);
     }
   };
 
@@ -113,7 +113,7 @@ export default function App() {
             className="flex items-center gap-1.5 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-xs font-bold transition-all shadow-md shadow-emerald-500/10 cursor-pointer hover:scale-105 whitespace-nowrap"
           >
             <Key className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-emerald-400 animate-pulse" />
-            <span>API Keys</span>
+            <span>{t.apiKeys.btnLabel}</span>
           </button>
 
           {/* Language Selector */}
@@ -153,14 +153,14 @@ export default function App() {
                 <Key className="w-5 h-5" />
               </div>
               <div>
-                <h3 className="text-base font-bold text-white">API Keys Configuration</h3>
-                <p className="text-xs text-slate-400">Configure your free NVIDIA NIM & Gemini keys</p>
+                <h3 className="text-base font-bold text-white">{t.apiKeys.title}</h3>
+                <p className="text-xs text-slate-400">{t.apiKeys.subtitle}</p>
               </div>
             </div>
 
             <div className="space-y-4">
               <div>
-                <label className="text-xs font-bold text-emerald-300 block mb-1.5">NVIDIA API Key (Voice Commander)</label>
+                <label className="text-xs font-bold text-emerald-300 block mb-1.5">{t.apiKeys.nvidiaLabel}</label>
                 <input
                   type="password"
                   placeholder="nvapi-..."
@@ -171,7 +171,7 @@ export default function App() {
               </div>
 
               <div>
-                <label className="text-xs font-bold text-emerald-300 block mb-1.5">Gemini API Key (Hybrid ASR)</label>
+                <label className="text-xs font-bold text-emerald-300 block mb-1.5">{t.apiKeys.geminiLabel}</label>
                 <input
                   type="password"
                   placeholder="AIzaSy..."
@@ -190,7 +190,7 @@ export default function App() {
               onClick={handleSaveKeys}
               className="w-full py-3 rounded-2xl bg-emerald-400 hover:bg-emerald-300 text-slate-950 font-extrabold text-sm shadow-lg shadow-emerald-500/30 transition-all cursor-pointer"
             >
-              Save API Keys
+              {t.apiKeys.saveBtn}
             </button>
           </div>
         </div>
